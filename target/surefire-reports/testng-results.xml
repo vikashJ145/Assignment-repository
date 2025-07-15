@@ -1,0 +1,1382 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="22" passed="1" failed="21" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-07-15T15:24:50 IST" name="API Test Suite" finished-at="2025-07-15T15:25:03 IST" duration-ms="12402">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.TestNGApiRunner@2d0399f4]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2025-07-15T15:24:50 IST" name="API CRUD Tests" finished-at="2025-07-15T15:25:03 IST" duration-ms="12402">
+      <class name="runners.TestNGApiRunner">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:runners.TestNGApiRunner@2d0399f4]" started-at="2025-07-15T15:24:50 IST" name="setUpClass" finished-at="2025-07-15T15:24:51 IST" duration-ms="679" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@3e753289]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method is-config="true" signature="setUp(org.testng.ITestResult)[pri:0, instance:runners.TestNGApiRunner@2d0399f4]" started-at="2025-07-15T15:24:51 IST" name="setUp" finished-at="2025-07-15T15:24:51 IST" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.TestNGApiRunner@2d0399f4] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.TestNGApiRunner@2d0399f4]" started-at="2025-07-15T15:24:51 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-07-15T15:24:51 IST" duration-ms="428" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Create a user"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["User API"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="io.cucumber.testng.UndefinedStepException">
+            <message>
+              <![CDATA[The step 'I send a POST request to "/users"' is undefined.
+You can implement this step using the snippet(s) below:
+
+@When("I send a POST request to {string}")
+public void i_send_a_post_request_to(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[io.cucumber.testng.UndefinedStepException: The step 'I send a POST request to "/users"' is undefined.
+You can implement this step using the snippet(s) below:
+
+@When("I send a POST request to {string}")
+public void i_send_a_post_request_to(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+at ✽.I send a POST request to "/users"(file:///C:/Users/saurabh%20yadav/Downloads/Myproject/Myproject/Myproject/src/test/resources/features/api/user_crud.feature:5)
+]]>
+            </full-stacktrace>
+          </exception> <!-- io.cucumber.testng.UndefinedStepException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:runners.TestNGApiRunner@2d0399f4]" started-at="2025-07-15T15:24:51 IST" name="tearDown" finished-at="2025-07-15T15:24:51 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=runScenario status=FAILURE method=AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.TestNGApiRunner@2d0399f4] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(org.testng.ITestResult)[pri:0, instance:runners.TestNGApiRunner@2d0399f4]" started-at="2025-07-15T15:24:52 IST" name="setUp" finished-at="2025-07-15T15:24:52 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.TestNGApiRunner@2d0399f4] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.TestNGApiRunner@2d0399f4]" started-at="2025-07-15T15:24:52 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-07-15T15:24:53 IST" duration-ms="1889" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Get user by ID"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["User API"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [200] but found [404]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [200] but found [404]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1590)
+at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+at org.testng.Assert.assertEquals(Assert.java:132)
+at org.testng.Assert.assertEquals(Assert.java:1431)
+at org.testng.Assert.assertEquals(Assert.java:1395)
+at org.testng.Assert.assertEquals(Assert.java:1441)
+at stepdefs.api.UserApiSteps.response_code_should_be(UserApiSteps.java:114)
+at ✽.Response code should be 200(file:///C:/Users/saurabh%20yadav/Downloads/Myproject/Myproject/Myproject/src/test/resources/features/api/user_crud.feature:11)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:runners.TestNGApiRunner@2d0399f4]" started-at="2025-07-15T15:24:53 IST" name="tearDown" finished-at="2025-07-15T15:24:53 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=runScenario status=FAILURE method=AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.TestNGApiRunner@2d0399f4] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(org.testng.ITestResult)[pri:0, instance:runners.TestNGApiRunner@2d0399f4]" started-at="2025-07-15T15:24:53 IST" name="setUp" finished-at="2025-07-15T15:24:53 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.TestNGApiRunner@2d0399f4] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.TestNGApiRunner@2d0399f4]" started-at="2025-07-15T15:24:53 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-07-15T15:24:53 IST" duration-ms="23" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Update user"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["User API"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="io.cucumber.testng.UndefinedStepException">
+            <message>
+              <![CDATA[The step 'I send a PUT request to "/users/{id}" with updated name "Vikash Updated" and email "vikash.updated@test.com"' is undefined.
+You can implement this step using the snippet(s) below:
+
+@When("I send a PUT request to {string} with updated name {string} and email {string}")
+public void i_send_a_put_request_to_with_updated_name_and_email(String string, String string2, String string3) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[io.cucumber.testng.UndefinedStepException: The step 'I send a PUT request to "/users/{id}" with updated name "Vikash Updated" and email "vikash.updated@test.com"' is undefined.
+You can implement this step using the snippet(s) below:
+
+@When("I send a PUT request to {string} with updated name {string} and email {string}")
+public void i_send_a_put_request_to_with_updated_name_and_email(String string, String string2, String string3) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+at ✽.I send a PUT request to "/users/{id}" with updated name "Vikash Updated" and email "vikash.updated@test.com"(file:///C:/Users/saurabh%20yadav/Downloads/Myproject/Myproject/Myproject/src/test/resources/features/api/user_crud.feature:16)
+]]>
+            </full-stacktrace>
+          </exception> <!-- io.cucumber.testng.UndefinedStepException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:runners.TestNGApiRunner@2d0399f4]" started-at="2025-07-15T15:24:53 IST" name="tearDown" finished-at="2025-07-15T15:24:53 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=runScenario status=FAILURE method=AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.TestNGApiRunner@2d0399f4] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(org.testng.ITestResult)[pri:0, instance:runners.TestNGApiRunner@2d0399f4]" started-at="2025-07-15T15:24:53 IST" name="setUp" finished-at="2025-07-15T15:24:53 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.TestNGApiRunner@2d0399f4] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.TestNGApiRunner@2d0399f4]" started-at="2025-07-15T15:24:53 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-07-15T15:24:53 IST" duration-ms="18" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Delete user"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["User API"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="io.cucumber.testng.UndefinedStepException">
+            <message>
+              <![CDATA[The step 'I send a DELETE request to "/users/{id}" for the created user' is undefined.
+You can implement this step using the snippet(s) below:
+
+@When("I send a DELETE request to {string} for the created user")
+public void i_send_a_delete_request_to_for_the_created_user(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[io.cucumber.testng.UndefinedStepException: The step 'I send a DELETE request to "/users/{id}" for the created user' is undefined.
+You can implement this step using the snippet(s) below:
+
+@When("I send a DELETE request to {string} for the created user")
+public void i_send_a_delete_request_to_for_the_created_user(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+at ✽.I send a DELETE request to "/users/{id}" for the created user(file:///C:/Users/saurabh%20yadav/Downloads/Myproject/Myproject/Myproject/src/test/resources/features/api/user_crud.feature:21)
+]]>
+            </full-stacktrace>
+          </exception> <!-- io.cucumber.testng.UndefinedStepException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:runners.TestNGApiRunner@2d0399f4]" started-at="2025-07-15T15:24:53 IST" name="tearDown" finished-at="2025-07-15T15:24:53 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=runScenario status=FAILURE method=AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.TestNGApiRunner@2d0399f4] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(org.testng.ITestResult)[pri:0, instance:runners.TestNGApiRunner@2d0399f4]" started-at="2025-07-15T15:24:53 IST" name="setUp" finished-at="2025-07-15T15:24:53 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.TestNGApiRunner@2d0399f4] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.TestNGApiRunner@2d0399f4]" started-at="2025-07-15T15:24:53 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-07-15T15:24:54 IST" duration-ms="38" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Get user with invalid ID"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["User API"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Expected error message not found: User not found expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Expected error message not found: User not found expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1590)
+at org.testng.Assert.assertTrue(Assert.java:57)
+at stepdefs.api.UserApiSteps.response_should_have_error_message(UserApiSteps.java:141)
+at ✽.Response should have error message "User not found"(file:///C:/Users/saurabh%20yadav/Downloads/Myproject/Myproject/Myproject/src/test/resources/features/api/user_crud.feature:28)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:runners.TestNGApiRunner@2d0399f4]" started-at="2025-07-15T15:24:54 IST" name="tearDown" finished-at="2025-07-15T15:24:54 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=runScenario status=FAILURE method=AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.TestNGApiRunner@2d0399f4] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(org.testng.ITestResult)[pri:0, instance:runners.TestNGApiRunner@2d0399f4]" started-at="2025-07-15T15:24:54 IST" name="setUp" finished-at="2025-07-15T15:24:54 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.TestNGApiRunner@2d0399f4] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.TestNGApiRunner@2d0399f4]" started-at="2025-07-15T15:24:54 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-07-15T15:24:54 IST" duration-ms="18" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Create user with missing name"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["User API"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="io.cucumber.testng.UndefinedStepException">
+            <message>
+              <![CDATA[The step 'I send a POST request to "/users"' is undefined.
+You can implement this step using the snippet(s) below:
+
+@When("I send a POST request to {string}")
+public void i_send_a_post_request_to(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[io.cucumber.testng.UndefinedStepException: The step 'I send a POST request to "/users"' is undefined.
+You can implement this step using the snippet(s) below:
+
+@When("I send a POST request to {string}")
+public void i_send_a_post_request_to(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+at ✽.I send a POST request to "/users"(file:///C:/Users/saurabh%20yadav/Downloads/Myproject/Myproject/Myproject/src/test/resources/features/api/user_crud.feature:33)
+]]>
+            </full-stacktrace>
+          </exception> <!-- io.cucumber.testng.UndefinedStepException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:runners.TestNGApiRunner@2d0399f4]" started-at="2025-07-15T15:24:54 IST" name="tearDown" finished-at="2025-07-15T15:24:54 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=runScenario status=FAILURE method=AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.TestNGApiRunner@2d0399f4] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(org.testng.ITestResult)[pri:0, instance:runners.TestNGApiRunner@2d0399f4]" started-at="2025-07-15T15:24:54 IST" name="setUp" finished-at="2025-07-15T15:24:54 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.TestNGApiRunner@2d0399f4] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.TestNGApiRunner@2d0399f4]" started-at="2025-07-15T15:24:54 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-07-15T15:24:54 IST" duration-ms="18" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Create user with invalid email"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["User API"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="io.cucumber.testng.UndefinedStepException">
+            <message>
+              <![CDATA[The step 'I send a POST request to "/users"' is undefined.
+You can implement this step using the snippet(s) below:
+
+@When("I send a POST request to {string}")
+public void i_send_a_post_request_to(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[io.cucumber.testng.UndefinedStepException: The step 'I send a POST request to "/users"' is undefined.
+You can implement this step using the snippet(s) below:
+
+@When("I send a POST request to {string}")
+public void i_send_a_post_request_to(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+at ✽.I send a POST request to "/users"(file:///C:/Users/saurabh%20yadav/Downloads/Myproject/Myproject/Myproject/src/test/resources/features/api/user_crud.feature:40)
+]]>
+            </full-stacktrace>
+          </exception> <!-- io.cucumber.testng.UndefinedStepException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:runners.TestNGApiRunner@2d0399f4]" started-at="2025-07-15T15:24:54 IST" name="tearDown" finished-at="2025-07-15T15:24:54 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=runScenario status=FAILURE method=AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.TestNGApiRunner@2d0399f4] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(org.testng.ITestResult)[pri:0, instance:runners.TestNGApiRunner@2d0399f4]" started-at="2025-07-15T15:24:54 IST" name="setUp" finished-at="2025-07-15T15:24:54 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.TestNGApiRunner@2d0399f4] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.TestNGApiRunner@2d0399f4]" started-at="2025-07-15T15:24:54 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-07-15T15:24:54 IST" duration-ms="76" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Get all users"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["User API"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:runners.TestNGApiRunner@2d0399f4]" started-at="2025-07-15T15:24:54 IST" name="tearDown" finished-at="2025-07-15T15:24:54 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=runScenario status=SUCCESS method=AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.TestNGApiRunner@2d0399f4] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(org.testng.ITestResult)[pri:0, instance:runners.TestNGApiRunner@2d0399f4]" started-at="2025-07-15T15:24:54 IST" name="setUp" finished-at="2025-07-15T15:24:54 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.TestNGApiRunner@2d0399f4] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.TestNGApiRunner@2d0399f4]" started-at="2025-07-15T15:24:54 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-07-15T15:24:54 IST" duration-ms="15" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Create user with special characters in name"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["User API"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="io.cucumber.testng.UndefinedStepException">
+            <message>
+              <![CDATA[The step 'I send a POST request to "/users"' is undefined.
+You can implement this step using the snippet(s) below:
+
+@When("I send a POST request to {string}")
+public void i_send_a_post_request_to(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[io.cucumber.testng.UndefinedStepException: The step 'I send a POST request to "/users"' is undefined.
+You can implement this step using the snippet(s) below:
+
+@When("I send a POST request to {string}")
+public void i_send_a_post_request_to(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+at ✽.I send a POST request to "/users"(file:///C:/Users/saurabh%20yadav/Downloads/Myproject/Myproject/Myproject/src/test/resources/features/api/user_crud.feature:52)
+]]>
+            </full-stacktrace>
+          </exception> <!-- io.cucumber.testng.UndefinedStepException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:runners.TestNGApiRunner@2d0399f4]" started-at="2025-07-15T15:24:54 IST" name="tearDown" finished-at="2025-07-15T15:24:54 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=runScenario status=FAILURE method=AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.TestNGApiRunner@2d0399f4] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(org.testng.ITestResult)[pri:0, instance:runners.TestNGApiRunner@2d0399f4]" started-at="2025-07-15T15:24:54 IST" name="setUp" finished-at="2025-07-15T15:24:54 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.TestNGApiRunner@2d0399f4] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.TestNGApiRunner@2d0399f4]" started-at="2025-07-15T15:24:54 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-07-15T15:24:54 IST" duration-ms="20" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Create user with maximum allowed name length"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["User API"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="io.cucumber.testng.UndefinedStepException">
+            <message>
+              <![CDATA[The step 'I send a POST request to "/users"' is undefined.
+You can implement this step using the snippet(s) below:
+
+@When("I send a POST request to {string}")
+public void i_send_a_post_request_to(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[io.cucumber.testng.UndefinedStepException: The step 'I send a POST request to "/users"' is undefined.
+You can implement this step using the snippet(s) below:
+
+@When("I send a POST request to {string}")
+public void i_send_a_post_request_to(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+at ✽.I send a POST request to "/users"(file:///C:/Users/saurabh%20yadav/Downloads/Myproject/Myproject/Myproject/src/test/resources/features/api/user_crud.feature:57)
+]]>
+            </full-stacktrace>
+          </exception> <!-- io.cucumber.testng.UndefinedStepException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:runners.TestNGApiRunner@2d0399f4]" started-at="2025-07-15T15:24:54 IST" name="tearDown" finished-at="2025-07-15T15:24:54 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=runScenario status=FAILURE method=AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.TestNGApiRunner@2d0399f4] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(org.testng.ITestResult)[pri:0, instance:runners.TestNGApiRunner@2d0399f4]" started-at="2025-07-15T15:24:54 IST" name="setUp" finished-at="2025-07-15T15:24:54 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.TestNGApiRunner@2d0399f4] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.TestNGApiRunner@2d0399f4]" started-at="2025-07-15T15:24:54 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-07-15T15:24:54 IST" duration-ms="17" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Create user with maximum allowed email length"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["User API"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="io.cucumber.testng.UndefinedStepException">
+            <message>
+              <![CDATA[The step 'I send a POST request to "/users"' is undefined.
+You can implement this step using the snippet(s) below:
+
+@When("I send a POST request to {string}")
+public void i_send_a_post_request_to(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[io.cucumber.testng.UndefinedStepException: The step 'I send a POST request to "/users"' is undefined.
+You can implement this step using the snippet(s) below:
+
+@When("I send a POST request to {string}")
+public void i_send_a_post_request_to(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+at ✽.I send a POST request to "/users"(file:///C:/Users/saurabh%20yadav/Downloads/Myproject/Myproject/Myproject/src/test/resources/features/api/user_crud.feature:62)
+]]>
+            </full-stacktrace>
+          </exception> <!-- io.cucumber.testng.UndefinedStepException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:runners.TestNGApiRunner@2d0399f4]" started-at="2025-07-15T15:24:54 IST" name="tearDown" finished-at="2025-07-15T15:24:54 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=runScenario status=FAILURE method=AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.TestNGApiRunner@2d0399f4] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(org.testng.ITestResult)[pri:0, instance:runners.TestNGApiRunner@2d0399f4]" started-at="2025-07-15T15:24:54 IST" name="setUp" finished-at="2025-07-15T15:24:54 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.TestNGApiRunner@2d0399f4] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.TestNGApiRunner@2d0399f4]" started-at="2025-07-15T15:24:54 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-07-15T15:24:54 IST" duration-ms="27" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Update user with valid new email"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["User API"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="io.cucumber.testng.UndefinedStepException">
+            <message>
+              <![CDATA[The step 'I send a PUT request to "/users/{id}" with updated name "Vikash", and email "vikash.new@test.com"' is undefined.
+You can implement this step using the snippet(s) below:
+
+@When("I send a PUT request to {string} with updated name {string}, and email {string}")
+public void i_send_a_put_request_to_with_updated_name_and_email(String string, String string2, String string3) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[io.cucumber.testng.UndefinedStepException: The step 'I send a PUT request to "/users/{id}" with updated name "Vikash", and email "vikash.new@test.com"' is undefined.
+You can implement this step using the snippet(s) below:
+
+@When("I send a PUT request to {string} with updated name {string}, and email {string}")
+public void i_send_a_put_request_to_with_updated_name_and_email(String string, String string2, String string3) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+at ✽.I send a PUT request to "/users/{id}" with updated name "Vikash", and email "vikash.new@test.com"(file:///C:/Users/saurabh%20yadav/Downloads/Myproject/Myproject/Myproject/src/test/resources/features/api/user_crud.feature:66)
+]]>
+            </full-stacktrace>
+          </exception> <!-- io.cucumber.testng.UndefinedStepException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:runners.TestNGApiRunner@2d0399f4]" started-at="2025-07-15T15:24:54 IST" name="tearDown" finished-at="2025-07-15T15:24:54 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=runScenario status=FAILURE method=AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.TestNGApiRunner@2d0399f4] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(org.testng.ITestResult)[pri:0, instance:runners.TestNGApiRunner@2d0399f4]" started-at="2025-07-15T15:24:54 IST" name="setUp" finished-at="2025-07-15T15:24:54 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.TestNGApiRunner@2d0399f4] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.TestNGApiRunner@2d0399f4]" started-at="2025-07-15T15:24:54 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-07-15T15:24:54 IST" duration-ms="16" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Delete user and verify deletion"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["User API"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="io.cucumber.testng.UndefinedStepException">
+            <message>
+              <![CDATA[The step 'I send a DELETE request to "/users/{id}" for the created user' is undefined.
+You can implement this step using the snippet(s) below:
+
+@When("I send a DELETE request to {string} for the created user")
+public void i_send_a_delete_request_to_for_the_created_user(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[io.cucumber.testng.UndefinedStepException: The step 'I send a DELETE request to "/users/{id}" for the created user' is undefined.
+You can implement this step using the snippet(s) below:
+
+@When("I send a DELETE request to {string} for the created user")
+public void i_send_a_delete_request_to_for_the_created_user(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+at ✽.I send a DELETE request to "/users/{id}" for the created user(file:///C:/Users/saurabh%20yadav/Downloads/Myproject/Myproject/Myproject/src/test/resources/features/api/user_crud.feature:70)
+]]>
+            </full-stacktrace>
+          </exception> <!-- io.cucumber.testng.UndefinedStepException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:runners.TestNGApiRunner@2d0399f4]" started-at="2025-07-15T15:24:54 IST" name="tearDown" finished-at="2025-07-15T15:24:54 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=runScenario status=FAILURE method=AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.TestNGApiRunner@2d0399f4] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(org.testng.ITestResult)[pri:0, instance:runners.TestNGApiRunner@2d0399f4]" started-at="2025-07-15T15:24:54 IST" name="setUp" finished-at="2025-07-15T15:24:54 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.TestNGApiRunner@2d0399f4] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.TestNGApiRunner@2d0399f4]" started-at="2025-07-15T15:24:54 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-07-15T15:24:54 IST" duration-ms="17" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Create user with mixed-case email"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["User API"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="io.cucumber.testng.UndefinedStepException">
+            <message>
+              <![CDATA[The step 'I send a POST request to "/users"' is undefined.
+You can implement this step using the snippet(s) below:
+
+@When("I send a POST request to {string}")
+public void i_send_a_post_request_to(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[io.cucumber.testng.UndefinedStepException: The step 'I send a POST request to "/users"' is undefined.
+You can implement this step using the snippet(s) below:
+
+@When("I send a POST request to {string}")
+public void i_send_a_post_request_to(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+at ✽.I send a POST request to "/users"(file:///C:/Users/saurabh%20yadav/Downloads/Myproject/Myproject/Myproject/src/test/resources/features/api/user_crud.feature:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- io.cucumber.testng.UndefinedStepException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:runners.TestNGApiRunner@2d0399f4]" started-at="2025-07-15T15:24:54 IST" name="tearDown" finished-at="2025-07-15T15:24:54 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=runScenario status=FAILURE method=AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.TestNGApiRunner@2d0399f4] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(org.testng.ITestResult)[pri:0, instance:runners.TestNGApiRunner@2d0399f4]" started-at="2025-07-15T15:24:54 IST" name="setUp" finished-at="2025-07-15T15:24:54 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.TestNGApiRunner@2d0399f4] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.TestNGApiRunner@2d0399f4]" started-at="2025-07-15T15:24:54 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-07-15T15:24:54 IST" duration-ms="19" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Create user with missing email"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["User API"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="io.cucumber.testng.UndefinedStepException">
+            <message>
+              <![CDATA[The step 'I send a POST request to "/users"' is undefined.
+You can implement this step using the snippet(s) below:
+
+@When("I send a POST request to {string}")
+public void i_send_a_post_request_to(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[io.cucumber.testng.UndefinedStepException: The step 'I send a POST request to "/users"' is undefined.
+You can implement this step using the snippet(s) below:
+
+@When("I send a POST request to {string}")
+public void i_send_a_post_request_to(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+at ✽.I send a POST request to "/users"(file:///C:/Users/saurabh%20yadav/Downloads/Myproject/Myproject/Myproject/src/test/resources/features/api/user_crud.feature:83)
+]]>
+            </full-stacktrace>
+          </exception> <!-- io.cucumber.testng.UndefinedStepException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:runners.TestNGApiRunner@2d0399f4]" started-at="2025-07-15T15:24:54 IST" name="tearDown" finished-at="2025-07-15T15:24:54 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=runScenario status=FAILURE method=AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.TestNGApiRunner@2d0399f4] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(org.testng.ITestResult)[pri:0, instance:runners.TestNGApiRunner@2d0399f4]" started-at="2025-07-15T15:24:54 IST" name="setUp" finished-at="2025-07-15T15:24:54 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.TestNGApiRunner@2d0399f4] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.TestNGApiRunner@2d0399f4]" started-at="2025-07-15T15:24:54 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-07-15T15:24:54 IST" duration-ms="19" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Create user with name exceeding max length"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["User API"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="io.cucumber.testng.UndefinedStepException">
+            <message>
+              <![CDATA[The step 'I send a POST request to "/users"' is undefined.
+You can implement this step using the snippet(s) below:
+
+@When("I send a POST request to {string}")
+public void i_send_a_post_request_to(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[io.cucumber.testng.UndefinedStepException: The step 'I send a POST request to "/users"' is undefined.
+You can implement this step using the snippet(s) below:
+
+@When("I send a POST request to {string}")
+public void i_send_a_post_request_to(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+at ✽.I send a POST request to "/users"(file:///C:/Users/saurabh%20yadav/Downloads/Myproject/Myproject/Myproject/src/test/resources/features/api/user_crud.feature:88)
+]]>
+            </full-stacktrace>
+          </exception> <!-- io.cucumber.testng.UndefinedStepException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:runners.TestNGApiRunner@2d0399f4]" started-at="2025-07-15T15:24:54 IST" name="tearDown" finished-at="2025-07-15T15:24:54 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=runScenario status=FAILURE method=AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.TestNGApiRunner@2d0399f4] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(org.testng.ITestResult)[pri:0, instance:runners.TestNGApiRunner@2d0399f4]" started-at="2025-07-15T15:24:54 IST" name="setUp" finished-at="2025-07-15T15:24:54 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.TestNGApiRunner@2d0399f4] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.TestNGApiRunner@2d0399f4]" started-at="2025-07-15T15:24:54 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-07-15T15:24:54 IST" duration-ms="13" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Create user with email exceeding max length"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["User API"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="io.cucumber.testng.UndefinedStepException">
+            <message>
+              <![CDATA[The step 'I send a POST request to "/users"' is undefined.
+You can implement this step using the snippet(s) below:
+
+@When("I send a POST request to {string}")
+public void i_send_a_post_request_to(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[io.cucumber.testng.UndefinedStepException: The step 'I send a POST request to "/users"' is undefined.
+You can implement this step using the snippet(s) below:
+
+@When("I send a POST request to {string}")
+public void i_send_a_post_request_to(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+at ✽.I send a POST request to "/users"(file:///C:/Users/saurabh%20yadav/Downloads/Myproject/Myproject/Myproject/src/test/resources/features/api/user_crud.feature:93)
+]]>
+            </full-stacktrace>
+          </exception> <!-- io.cucumber.testng.UndefinedStepException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:runners.TestNGApiRunner@2d0399f4]" started-at="2025-07-15T15:24:54 IST" name="tearDown" finished-at="2025-07-15T15:24:54 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=runScenario status=FAILURE method=AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.TestNGApiRunner@2d0399f4] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(org.testng.ITestResult)[pri:0, instance:runners.TestNGApiRunner@2d0399f4]" started-at="2025-07-15T15:24:54 IST" name="setUp" finished-at="2025-07-15T15:24:54 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.TestNGApiRunner@2d0399f4] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.TestNGApiRunner@2d0399f4]" started-at="2025-07-15T15:24:54 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-07-15T15:24:54 IST" duration-ms="14" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Update user with invalid ID"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["User API"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="io.cucumber.testng.UndefinedStepException">
+            <message>
+              <![CDATA[The step 'I send a PUT request to "/users/9999" with updated name "Invalid Update", and email "invalid.update@test.com"' is undefined.
+You can implement this step using the snippet(s) below:
+
+@When("I send a PUT request to {string} with updated name {string}, and email {string}")
+public void i_send_a_put_request_to_with_updated_name_and_email(String string, String string2, String string3) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[io.cucumber.testng.UndefinedStepException: The step 'I send a PUT request to "/users/9999" with updated name "Invalid Update", and email "invalid.update@test.com"' is undefined.
+You can implement this step using the snippet(s) below:
+
+@When("I send a PUT request to {string} with updated name {string}, and email {string}")
+public void i_send_a_put_request_to_with_updated_name_and_email(String string, String string2, String string3) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+at ✽.I send a PUT request to "/users/9999" with updated name "Invalid Update", and email "invalid.update@test.com"(file:///C:/Users/saurabh%20yadav/Downloads/Myproject/Myproject/Myproject/src/test/resources/features/api/user_crud.feature:97)
+]]>
+            </full-stacktrace>
+          </exception> <!-- io.cucumber.testng.UndefinedStepException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:runners.TestNGApiRunner@2d0399f4]" started-at="2025-07-15T15:24:54 IST" name="tearDown" finished-at="2025-07-15T15:24:54 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=runScenario status=FAILURE method=AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.TestNGApiRunner@2d0399f4] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(org.testng.ITestResult)[pri:0, instance:runners.TestNGApiRunner@2d0399f4]" started-at="2025-07-15T15:24:54 IST" name="setUp" finished-at="2025-07-15T15:24:54 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.TestNGApiRunner@2d0399f4] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.TestNGApiRunner@2d0399f4]" started-at="2025-07-15T15:24:54 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-07-15T15:24:54 IST" duration-ms="14" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Update user with invalid email"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["User API"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="io.cucumber.testng.UndefinedStepException">
+            <message>
+              <![CDATA[The step 'I send a PUT request to "/users/{id}" with updated name "Invalid Email", and email "notanemail"' is undefined.
+You can implement this step using the snippet(s) below:
+
+@When("I send a PUT request to {string} with updated name {string}, and email {string}")
+public void i_send_a_put_request_to_with_updated_name_and_email(String string, String string2, String string3) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[io.cucumber.testng.UndefinedStepException: The step 'I send a PUT request to "/users/{id}" with updated name "Invalid Email", and email "notanemail"' is undefined.
+You can implement this step using the snippet(s) below:
+
+@When("I send a PUT request to {string} with updated name {string}, and email {string}")
+public void i_send_a_put_request_to_with_updated_name_and_email(String string, String string2, String string3) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+at ✽.I send a PUT request to "/users/{id}" with updated name "Invalid Email", and email "notanemail"(file:///C:/Users/saurabh%20yadav/Downloads/Myproject/Myproject/Myproject/src/test/resources/features/api/user_crud.feature:101)
+]]>
+            </full-stacktrace>
+          </exception> <!-- io.cucumber.testng.UndefinedStepException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:runners.TestNGApiRunner@2d0399f4]" started-at="2025-07-15T15:24:54 IST" name="tearDown" finished-at="2025-07-15T15:24:54 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=runScenario status=FAILURE method=AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.TestNGApiRunner@2d0399f4] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(org.testng.ITestResult)[pri:0, instance:runners.TestNGApiRunner@2d0399f4]" started-at="2025-07-15T15:24:54 IST" name="setUp" finished-at="2025-07-15T15:24:54 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.TestNGApiRunner@2d0399f4] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.TestNGApiRunner@2d0399f4]" started-at="2025-07-15T15:24:54 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-07-15T15:24:54 IST" duration-ms="11" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Delete user with invalid ID"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["User API"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="io.cucumber.testng.UndefinedStepException">
+            <message>
+              <![CDATA[The step 'I send a DELETE request to "/users/9999" for the created user' is undefined.
+You can implement this step using the snippet(s) below:
+
+@When("I send a DELETE request to {string} for the created user")
+public void i_send_a_delete_request_to_for_the_created_user(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[io.cucumber.testng.UndefinedStepException: The step 'I send a DELETE request to "/users/9999" for the created user' is undefined.
+You can implement this step using the snippet(s) below:
+
+@When("I send a DELETE request to {string} for the created user")
+public void i_send_a_delete_request_to_for_the_created_user(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+at ✽.I send a DELETE request to "/users/9999" for the created user(file:///C:/Users/saurabh%20yadav/Downloads/Myproject/Myproject/Myproject/src/test/resources/features/api/user_crud.feature:105)
+]]>
+            </full-stacktrace>
+          </exception> <!-- io.cucumber.testng.UndefinedStepException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:runners.TestNGApiRunner@2d0399f4]" started-at="2025-07-15T15:24:54 IST" name="tearDown" finished-at="2025-07-15T15:24:54 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=runScenario status=FAILURE method=AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.TestNGApiRunner@2d0399f4] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(org.testng.ITestResult)[pri:0, instance:runners.TestNGApiRunner@2d0399f4]" started-at="2025-07-15T15:24:54 IST" name="setUp" finished-at="2025-07-15T15:24:54 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.TestNGApiRunner@2d0399f4] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.TestNGApiRunner@2d0399f4]" started-at="2025-07-15T15:24:54 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-07-15T15:24:54 IST" duration-ms="40" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Get all users when none exist"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["User API"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [false] but found [true]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [false] but found [true]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1590)
+at org.testng.Assert.assertFalse(Assert.java:79)
+at org.testng.Assert.assertFalse(Assert.java:89)
+at stepdefs.api.UserApiSteps.response_should_not_contain(UserApiSteps.java:124)
+at ✽.Response should not contain "Vikash"(file:///C:/Users/saurabh%20yadav/Downloads/Myproject/Myproject/Myproject/src/test/resources/features/api/user_crud.feature:111)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:runners.TestNGApiRunner@2d0399f4]" started-at="2025-07-15T15:24:54 IST" name="tearDown" finished-at="2025-07-15T15:24:54 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=runScenario status=FAILURE method=AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.TestNGApiRunner@2d0399f4] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(org.testng.ITestResult)[pri:0, instance:runners.TestNGApiRunner@2d0399f4]" started-at="2025-07-15T15:24:54 IST" name="setUp" finished-at="2025-07-15T15:24:54 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.TestNGApiRunner@2d0399f4] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.TestNGApiRunner@2d0399f4]" started-at="2025-07-15T15:24:54 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-07-15T15:24:54 IST" duration-ms="20" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Create user with duplicate email"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["User API"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="io.cucumber.testng.UndefinedStepException">
+            <message>
+              <![CDATA[The step 'I send a POST request to "/users"' is undefined.
+You can implement this step using the snippet(s) below:
+
+@When("I send a POST request to {string}")
+public void i_send_a_post_request_to(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[io.cucumber.testng.UndefinedStepException: The step 'I send a POST request to "/users"' is undefined.
+You can implement this step using the snippet(s) below:
+
+@When("I send a POST request to {string}")
+public void i_send_a_post_request_to(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+at ✽.I send a POST request to "/users"(file:///C:/Users/saurabh%20yadav/Downloads/Myproject/Myproject/Myproject/src/test/resources/features/api/user_crud.feature:115)
+]]>
+            </full-stacktrace>
+          </exception> <!-- io.cucumber.testng.UndefinedStepException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:runners.TestNGApiRunner@2d0399f4]" started-at="2025-07-15T15:24:54 IST" name="tearDown" finished-at="2025-07-15T15:24:54 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=runScenario status=FAILURE method=AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.TestNGApiRunner@2d0399f4] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:runners.TestNGApiRunner@2d0399f4]" started-at="2025-07-15T15:24:54 IST" name="tearDownClass" finished-at="2025-07-15T15:25:03 IST" duration-ms="8614" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- runners.TestNGApiRunner -->
+    </test> <!-- API CRUD Tests -->
+  </suite> <!-- API Test Suite -->
+</testng-results>

@@ -1,0 +1,1223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="13.455" tests="22" errors="0" skipped="0" failures="21">
+  <properties>
+    <property name="java.specification.version" value="21"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\saurabh yadav\Downloads\Myproject\Myproject\Myproject\target\test-classes;C:\Users\saurabh yadav\Downloads\Myproject\Myproject\Myproject\target\classes;C:\Users\saurabh yadav\.m2\repository\junit\junit\3.8.1\junit-3.8.1.jar;C:\Users\saurabh yadav\.m2\repository\org\seleniumhq\selenium\selenium-java\4.34.0\selenium-java-4.34.0.jar;C:\Users\saurabh yadav\.m2\repository\org\seleniumhq\selenium\selenium-api\4.34.0\selenium-api-4.34.0.jar;C:\Users\saurabh yadav\.m2\repository\org\jspecify\jspecify\1.0.0\jspecify-1.0.0.jar;C:\Users\saurabh yadav\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.34.0\selenium-chrome-driver-4.34.0.jar;C:\Users\saurabh yadav\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\saurabh yadav\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.34.0\selenium-chromium-driver-4.34.0.jar;C:\Users\saurabh yadav\.m2\repository\org\seleniumhq\selenium\selenium-json\4.34.0\selenium-json-4.34.0.jar;C:\Users\saurabh yadav\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.34.0\selenium-manager-4.34.0.jar;C:\Users\saurabh yadav\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v136\4.34.0\selenium-devtools-v136-4.34.0.jar;C:\Users\saurabh yadav\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v137\4.34.0\selenium-devtools-v137-4.34.0.jar;C:\Users\saurabh yadav\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v138\4.34.0\selenium-devtools-v138-4.34.0.jar;C:\Users\saurabh yadav\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.34.0\selenium-edge-driver-4.34.0.jar;C:\Users\saurabh yadav\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.34.0\selenium-firefox-driver-4.34.0.jar;C:\Users\saurabh yadav\.m2\repository\org\seleniumhq\selenium\selenium-http\4.34.0\selenium-http-4.34.0.jar;C:\Users\saurabh yadav\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.34.0\selenium-ie-driver-4.34.0.jar;C:\Users\saurabh yadav\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.34.0\selenium-remote-driver-4.34.0.jar;C:\Users\saurabh yadav\.m2\repository\com\google\guava\guava\33.4.8-jre\guava-33.4.8-jre.jar;C:\Users\saurabh yadav\.m2\repository\com\google\guava\failureaccess\1.0.3\failureaccess-1.0.3.jar;C:\Users\saurabh yadav\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\saurabh yadav\.m2\repository\com\google\j2objc\j2objc-annotations\3.0.0\j2objc-annotations-3.0.0.jar;C:\Users\saurabh yadav\.m2\repository\io\opentelemetry\opentelemetry-api\1.51.0\opentelemetry-api-1.51.0.jar;C:\Users\saurabh yadav\.m2\repository\io\opentelemetry\opentelemetry-context\1.51.0\opentelemetry-context-1.51.0.jar;C:\Users\saurabh yadav\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.51.0\opentelemetry-exporter-logging-1.51.0.jar;C:\Users\saurabh yadav\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.51.0\opentelemetry-sdk-common-1.51.0.jar;C:\Users\saurabh yadav\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.51.0\opentelemetry-sdk-extension-autoconfigure-spi-1.51.0.jar;C:\Users\saurabh yadav\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.51.0\opentelemetry-sdk-extension-autoconfigure-1.51.0.jar;C:\Users\saurabh yadav\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.51.0\opentelemetry-sdk-trace-1.51.0.jar;C:\Users\saurabh yadav\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.51.0\opentelemetry-sdk-1.51.0.jar;C:\Users\saurabh yadav\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.51.0\opentelemetry-sdk-metrics-1.51.0.jar;C:\Users\saurabh yadav\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.51.0\opentelemetry-sdk-logs-1.51.0.jar;C:\Users\saurabh yadav\.m2\repository\net\bytebuddy\byte-buddy\1.17.6\byte-buddy-1.17.6.jar;C:\Users\saurabh yadav\.m2\repository\org\seleniumhq\selenium\selenium-os\4.34.0\selenium-os-4.34.0.jar;C:\Users\saurabh yadav\.m2\repository\org\apache\commons\commons-exec\1.5.0\commons-exec-1.5.0.jar;C:\Users\saurabh yadav\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.34.0\selenium-safari-driver-4.34.0.jar;C:\Users\saurabh yadav\.m2\repository\org\seleniumhq\selenium\selenium-support\4.34.0\selenium-support-4.34.0.jar;C:\Users\saurabh yadav\.m2\repository\io\cucumber\cucumber-java\7.23.0\cucumber-java-7.23.0.jar;C:\Users\saurabh yadav\.m2\repository\io\cucumber\cucumber-core\7.23.0\cucumber-core-7.23.0.jar;C:\Users\saurabh yadav\.m2\repository\io\cucumber\cucumber-gherkin\7.23.0\cucumber-gherkin-7.23.0.jar;C:\Users\saurabh yadav\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.23.0\cucumber-gherkin-messages-7.23.0.jar;C:\Users\saurabh yadav\.m2\repository\io\cucumber\gherkin\32.1.1\gherkin-32.1.1.jar;C:\Users\saurabh yadav\.m2\repository\io\cucumber\messages\27.2.0\messages-27.2.0.jar;C:\Users\saurabh yadav\.m2\repository\io\cucumber\testng-xml-formatter\0.3.1\testng-xml-formatter-0.3.1.jar;C:\Users\saurabh yadav\.m2\repository\io\cucumber\query\13.5.0\query-13.5.0.jar;C:\Users\saurabh yadav\.m2\repository\io\cucumber\tag-expressions\6.1.2\tag-expressions-6.1.2.jar;C:\Users\saurabh yadav\.m2\repository\io\cucumber\cucumber-expressions\18.0.1\cucumber-expressions-18.0.1.jar;C:\Users\saurabh yadav\.m2\repository\io\cucumber\datatable\7.23.0\datatable-7.23.0.jar;C:\Users\saurabh yadav\.m2\repository\io\cucumber\cucumber-plugin\7.23.0\cucumber-plugin-7.23.0.jar;C:\Users\saurabh yadav\.m2\repository\io\cucumber\docstring\7.23.0\docstring-7.23.0.jar;C:\Users\saurabh yadav\.m2\repository\io\cucumber\html-formatter\21.10.1\html-formatter-21.10.1.jar;C:\Users\saurabh yadav\.m2\repository\io\cucumber\junit-xml-formatter\0.7.1\junit-xml-formatter-0.7.1.jar;C:\Users\saurabh yadav\.m2\repository\io\cucumber\ci-environment\10.0.1\ci-environment-10.0.1.jar;C:\Users\saurabh yadav\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\saurabh yadav\.m2\repository\io\cucumber\cucumber-testng\7.23.0\cucumber-testng-7.23.0.jar;C:\Users\saurabh yadav\.m2\repository\org\testng\testng\7.11.0\testng-7.11.0.jar;C:\Users\saurabh yadav\.m2\repository\org\slf4j\slf4j-api\2.0.16\slf4j-api-2.0.16.jar;C:\Users\saurabh yadav\.m2\repository\org\jcommander\jcommander\1.83\jcommander-1.83.jar;C:\Users\saurabh yadav\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;C:\Users\saurabh yadav\.m2\repository\io\github\bonigarcia\webdrivermanager\6.1.0\webdrivermanager-6.1.0.jar;C:\Users\saurabh yadav\.m2\repository\com\google\code\gson\gson\2.13.0\gson-2.13.0.jar;C:\Users\saurabh yadav\.m2\repository\com\google\errorprone\error_prone_annotations\2.37.0\error_prone_annotations-2.37.0.jar;C:\Users\saurabh yadav\.m2\repository\com\github\docker-java\docker-java\3.5.0\docker-java-3.5.0.jar;C:\Users\saurabh yadav\.m2\repository\com\github\docker-java\docker-java-core\3.5.0\docker-java-core-3.5.0.jar;C:\Users\saurabh yadav\.m2\repository\com\github\docker-java\docker-java-api\3.5.0\docker-java-api-3.5.0.jar;C:\Users\saurabh yadav\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.30\jcl-over-slf4j-1.7.30.jar;C:\Users\saurabh yadav\.m2\repository\com\github\docker-java\docker-java-transport-httpclient5\3.5.0\docker-java-transport-httpclient5-3.5.0.jar;C:\Users\saurabh yadav\.m2\repository\com\github\docker-java\docker-java-transport\3.5.0\docker-java-transport-3.5.0.jar;C:\Users\saurabh yadav\.m2\repository\net\java\dev\jna\jna\5.17.0\jna-5.17.0.jar;C:\Users\saurabh yadav\.m2\repository\org\brotli\dec\0.1.2\dec-0.1.2.jar;C:\Users\saurabh yadav\.m2\repository\org\apache\commons\commons-lang3\3.17.0\commons-lang3-3.17.0.jar;C:\Users\saurabh yadav\.m2\repository\org\apache\commons\commons-compress\1.27.1\commons-compress-1.27.1.jar;C:\Users\saurabh yadav\.m2\repository\commons-codec\commons-codec\1.17.1\commons-codec-1.17.1.jar;C:\Users\saurabh yadav\.m2\repository\commons-io\commons-io\2.16.1\commons-io-2.16.1.jar;C:\Users\saurabh yadav\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.4.3\httpclient5-5.4.3.jar;C:\Users\saurabh yadav\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.3.4\httpcore5-5.3.4.jar;C:\Users\saurabh yadav\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.3.4\httpcore5-h2-5.3.4.jar;C:\Users\saurabh yadav\.m2\repository\net\java\dev\jna\jna-platform\5.13.0\jna-platform-5.13.0.jar;C:\Users\saurabh yadav\.m2\repository\io\qameta\allure\allure-testng\2.29.1\allure-testng-2.29.1.jar;C:\Users\saurabh yadav\.m2\repository\io\qameta\allure\allure-java-commons\2.29.1\allure-java-commons-2.29.1.jar;C:\Users\saurabh yadav\.m2\repository\io\qameta\allure\allure-model\2.29.1\allure-model-2.29.1.jar;C:\Users\saurabh yadav\.m2\repository\io\qameta\allure\allure-test-filter\2.29.1\allure-test-filter-2.29.1.jar;C:\Users\saurabh yadav\.m2\repository\io\qameta\allure\allure-cucumber7-jvm\2.29.1\allure-cucumber7-jvm-2.29.1.jar;C:\Users\saurabh yadav\.m2\repository\io\rest-assured\rest-assured\5.5.5\rest-assured-5.5.5.jar;C:\Users\saurabh yadav\.m2\repository\org\apache\groovy\groovy\4.0.22\groovy-4.0.22.jar;C:\Users\saurabh yadav\.m2\repository\org\apache\groovy\groovy-xml\4.0.22\groovy-xml-4.0.22.jar;C:\Users\saurabh yadav\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\saurabh yadav\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\saurabh yadav\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\saurabh yadav\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\saurabh yadav\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar;C:\Users\saurabh yadav\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\saurabh yadav\.m2\repository\io\rest-assured\xml-path\5.5.5\xml-path-5.5.5.jar;C:\Users\saurabh yadav\.m2\repository\io\rest-assured\json-path\5.5.5\json-path-5.5.5.jar;C:\Users\saurabh yadav\.m2\repository\org\apache\groovy\groovy-json\4.0.22\groovy-json-4.0.22.jar;C:\Users\saurabh yadav\.m2\repository\io\rest-assured\rest-assured-common\5.5.5\rest-assured-common-5.5.5.jar;C:\Users\saurabh yadav\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.19.1\jackson-databind-2.19.1.jar;C:\Users\saurabh yadav\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.19.1\jackson-annotations-2.19.1.jar;C:\Users\saurabh yadav\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.19.1\jackson-core-2.19.1.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="java.vm.specification.version" value="21"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-21\bin"/>
+    <property name="sun.java.command" value="C:\Users\saurabh yadav\AppData\Local\Temp\surefire15418608820609560447\surefirebooter-20250715152449332_3.jar C:\Users\saurabh yadav\AppData\Local\Temp\surefire15418608820609560447 2025-07-15T15-24-49_164-jvmRun1 surefire-20250715152449332_1tmp surefire_0-20250715152449332_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\saurabh yadav\Downloads\Myproject\Myproject\Myproject\target\test-classes;C:\Users\saurabh yadav\Downloads\Myproject\Myproject\Myproject\target\classes;C:\Users\saurabh yadav\.m2\repository\junit\junit\3.8.1\junit-3.8.1.jar;C:\Users\saurabh yadav\.m2\repository\org\seleniumhq\selenium\selenium-java\4.34.0\selenium-java-4.34.0.jar;C:\Users\saurabh yadav\.m2\repository\org\seleniumhq\selenium\selenium-api\4.34.0\selenium-api-4.34.0.jar;C:\Users\saurabh yadav\.m2\repository\org\jspecify\jspecify\1.0.0\jspecify-1.0.0.jar;C:\Users\saurabh yadav\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.34.0\selenium-chrome-driver-4.34.0.jar;C:\Users\saurabh yadav\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\saurabh yadav\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.34.0\selenium-chromium-driver-4.34.0.jar;C:\Users\saurabh yadav\.m2\repository\org\seleniumhq\selenium\selenium-json\4.34.0\selenium-json-4.34.0.jar;C:\Users\saurabh yadav\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.34.0\selenium-manager-4.34.0.jar;C:\Users\saurabh yadav\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v136\4.34.0\selenium-devtools-v136-4.34.0.jar;C:\Users\saurabh yadav\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v137\4.34.0\selenium-devtools-v137-4.34.0.jar;C:\Users\saurabh yadav\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v138\4.34.0\selenium-devtools-v138-4.34.0.jar;C:\Users\saurabh yadav\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.34.0\selenium-edge-driver-4.34.0.jar;C:\Users\saurabh yadav\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.34.0\selenium-firefox-driver-4.34.0.jar;C:\Users\saurabh yadav\.m2\repository\org\seleniumhq\selenium\selenium-http\4.34.0\selenium-http-4.34.0.jar;C:\Users\saurabh yadav\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.34.0\selenium-ie-driver-4.34.0.jar;C:\Users\saurabh yadav\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.34.0\selenium-remote-driver-4.34.0.jar;C:\Users\saurabh yadav\.m2\repository\com\google\guava\guava\33.4.8-jre\guava-33.4.8-jre.jar;C:\Users\saurabh yadav\.m2\repository\com\google\guava\failureaccess\1.0.3\failureaccess-1.0.3.jar;C:\Users\saurabh yadav\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\saurabh yadav\.m2\repository\com\google\j2objc\j2objc-annotations\3.0.0\j2objc-annotations-3.0.0.jar;C:\Users\saurabh yadav\.m2\repository\io\opentelemetry\opentelemetry-api\1.51.0\opentelemetry-api-1.51.0.jar;C:\Users\saurabh yadav\.m2\repository\io\opentelemetry\opentelemetry-context\1.51.0\opentelemetry-context-1.51.0.jar;C:\Users\saurabh yadav\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.51.0\opentelemetry-exporter-logging-1.51.0.jar;C:\Users\saurabh yadav\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.51.0\opentelemetry-sdk-common-1.51.0.jar;C:\Users\saurabh yadav\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.51.0\opentelemetry-sdk-extension-autoconfigure-spi-1.51.0.jar;C:\Users\saurabh yadav\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.51.0\opentelemetry-sdk-extension-autoconfigure-1.51.0.jar;C:\Users\saurabh yadav\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.51.0\opentelemetry-sdk-trace-1.51.0.jar;C:\Users\saurabh yadav\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.51.0\opentelemetry-sdk-1.51.0.jar;C:\Users\saurabh yadav\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.51.0\opentelemetry-sdk-metrics-1.51.0.jar;C:\Users\saurabh yadav\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.51.0\opentelemetry-sdk-logs-1.51.0.jar;C:\Users\saurabh yadav\.m2\repository\net\bytebuddy\byte-buddy\1.17.6\byte-buddy-1.17.6.jar;C:\Users\saurabh yadav\.m2\repository\org\seleniumhq\selenium\selenium-os\4.34.0\selenium-os-4.34.0.jar;C:\Users\saurabh yadav\.m2\repository\org\apache\commons\commons-exec\1.5.0\commons-exec-1.5.0.jar;C:\Users\saurabh yadav\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.34.0\selenium-safari-driver-4.34.0.jar;C:\Users\saurabh yadav\.m2\repository\org\seleniumhq\selenium\selenium-support\4.34.0\selenium-support-4.34.0.jar;C:\Users\saurabh yadav\.m2\repository\io\cucumber\cucumber-java\7.23.0\cucumber-java-7.23.0.jar;C:\Users\saurabh yadav\.m2\repository\io\cucumber\cucumber-core\7.23.0\cucumber-core-7.23.0.jar;C:\Users\saurabh yadav\.m2\repository\io\cucumber\cucumber-gherkin\7.23.0\cucumber-gherkin-7.23.0.jar;C:\Users\saurabh yadav\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.23.0\cucumber-gherkin-messages-7.23.0.jar;C:\Users\saurabh yadav\.m2\repository\io\cucumber\gherkin\32.1.1\gherkin-32.1.1.jar;C:\Users\saurabh yadav\.m2\repository\io\cucumber\messages\27.2.0\messages-27.2.0.jar;C:\Users\saurabh yadav\.m2\repository\io\cucumber\testng-xml-formatter\0.3.1\testng-xml-formatter-0.3.1.jar;C:\Users\saurabh yadav\.m2\repository\io\cucumber\query\13.5.0\query-13.5.0.jar;C:\Users\saurabh yadav\.m2\repository\io\cucumber\tag-expressions\6.1.2\tag-expressions-6.1.2.jar;C:\Users\saurabh yadav\.m2\repository\io\cucumber\cucumber-expressions\18.0.1\cucumber-expressions-18.0.1.jar;C:\Users\saurabh yadav\.m2\repository\io\cucumber\datatable\7.23.0\datatable-7.23.0.jar;C:\Users\saurabh yadav\.m2\repository\io\cucumber\cucumber-plugin\7.23.0\cucumber-plugin-7.23.0.jar;C:\Users\saurabh yadav\.m2\repository\io\cucumber\docstring\7.23.0\docstring-7.23.0.jar;C:\Users\saurabh yadav\.m2\repository\io\cucumber\html-formatter\21.10.1\html-formatter-21.10.1.jar;C:\Users\saurabh yadav\.m2\repository\io\cucumber\junit-xml-formatter\0.7.1\junit-xml-formatter-0.7.1.jar;C:\Users\saurabh yadav\.m2\repository\io\cucumber\ci-environment\10.0.1\ci-environment-10.0.1.jar;C:\Users\saurabh yadav\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\saurabh yadav\.m2\repository\io\cucumber\cucumber-testng\7.23.0\cucumber-testng-7.23.0.jar;C:\Users\saurabh yadav\.m2\repository\org\testng\testng\7.11.0\testng-7.11.0.jar;C:\Users\saurabh yadav\.m2\repository\org\slf4j\slf4j-api\2.0.16\slf4j-api-2.0.16.jar;C:\Users\saurabh yadav\.m2\repository\org\jcommander\jcommander\1.83\jcommander-1.83.jar;C:\Users\saurabh yadav\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;C:\Users\saurabh yadav\.m2\repository\io\github\bonigarcia\webdrivermanager\6.1.0\webdrivermanager-6.1.0.jar;C:\Users\saurabh yadav\.m2\repository\com\google\code\gson\gson\2.13.0\gson-2.13.0.jar;C:\Users\saurabh yadav\.m2\repository\com\google\errorprone\error_prone_annotations\2.37.0\error_prone_annotations-2.37.0.jar;C:\Users\saurabh yadav\.m2\repository\com\github\docker-java\docker-java\3.5.0\docker-java-3.5.0.jar;C:\Users\saurabh yadav\.m2\repository\com\github\docker-java\docker-java-core\3.5.0\docker-java-core-3.5.0.jar;C:\Users\saurabh yadav\.m2\repository\com\github\docker-java\docker-java-api\3.5.0\docker-java-api-3.5.0.jar;C:\Users\saurabh yadav\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.30\jcl-over-slf4j-1.7.30.jar;C:\Users\saurabh yadav\.m2\repository\com\github\docker-java\docker-java-transport-httpclient5\3.5.0\docker-java-transport-httpclient5-3.5.0.jar;C:\Users\saurabh yadav\.m2\repository\com\github\docker-java\docker-java-transport\3.5.0\docker-java-transport-3.5.0.jar;C:\Users\saurabh yadav\.m2\repository\net\java\dev\jna\jna\5.17.0\jna-5.17.0.jar;C:\Users\saurabh yadav\.m2\repository\org\brotli\dec\0.1.2\dec-0.1.2.jar;C:\Users\saurabh yadav\.m2\repository\org\apache\commons\commons-lang3\3.17.0\commons-lang3-3.17.0.jar;C:\Users\saurabh yadav\.m2\repository\org\apache\commons\commons-compress\1.27.1\commons-compress-1.27.1.jar;C:\Users\saurabh yadav\.m2\repository\commons-codec\commons-codec\1.17.1\commons-codec-1.17.1.jar;C:\Users\saurabh yadav\.m2\repository\commons-io\commons-io\2.16.1\commons-io-2.16.1.jar;C:\Users\saurabh yadav\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.4.3\httpclient5-5.4.3.jar;C:\Users\saurabh yadav\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.3.4\httpcore5-5.3.4.jar;C:\Users\saurabh yadav\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.3.4\httpcore5-h2-5.3.4.jar;C:\Users\saurabh yadav\.m2\repository\net\java\dev\jna\jna-platform\5.13.0\jna-platform-5.13.0.jar;C:\Users\saurabh yadav\.m2\repository\io\qameta\allure\allure-testng\2.29.1\allure-testng-2.29.1.jar;C:\Users\saurabh yadav\.m2\repository\io\qameta\allure\allure-java-commons\2.29.1\allure-java-commons-2.29.1.jar;C:\Users\saurabh yadav\.m2\repository\io\qameta\allure\allure-model\2.29.1\allure-model-2.29.1.jar;C:\Users\saurabh yadav\.m2\repository\io\qameta\allure\allure-test-filter\2.29.1\allure-test-filter-2.29.1.jar;C:\Users\saurabh yadav\.m2\repository\io\qameta\allure\allure-cucumber7-jvm\2.29.1\allure-cucumber7-jvm-2.29.1.jar;C:\Users\saurabh yadav\.m2\repository\io\rest-assured\rest-assured\5.5.5\rest-assured-5.5.5.jar;C:\Users\saurabh yadav\.m2\repository\org\apache\groovy\groovy\4.0.22\groovy-4.0.22.jar;C:\Users\saurabh yadav\.m2\repository\org\apache\groovy\groovy-xml\4.0.22\groovy-xml-4.0.22.jar;C:\Users\saurabh yadav\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\saurabh yadav\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\saurabh yadav\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\saurabh yadav\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\saurabh yadav\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar;C:\Users\saurabh yadav\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\saurabh yadav\.m2\repository\io\rest-assured\xml-path\5.5.5\xml-path-5.5.5.jar;C:\Users\saurabh yadav\.m2\repository\io\rest-assured\json-path\5.5.5\json-path-5.5.5.jar;C:\Users\saurabh yadav\.m2\repository\org\apache\groovy\groovy-json\4.0.22\groovy-json-4.0.22.jar;C:\Users\saurabh yadav\.m2\repository\io\rest-assured\rest-assured-common\5.5.5\rest-assured-common-5.5.5.jar;C:\Users\saurabh yadav\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.19.1\jackson-databind-2.19.1.jar;C:\Users\saurabh yadav\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.19.1\jackson-annotations-2.19.1.jar;C:\Users\saurabh yadav\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.19.1\jackson-core-2.19.1.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\saurabh yadav"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2024-07-16"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-21"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\saurabh yadav\Downloads\Myproject\Myproject\Myproject"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\saurabh yadav\AppData\Local\Temp\surefire15418608820609560447\surefirebooter-20250715152449332_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="21.0.4+8-LTS-274"/>
+    <property name="user.name" value="saurabh yadav"/>
+    <property name="stdout.encoding" value="Cp1252"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\saurabh yadav\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\SAURAB~1\AppData\Local\Temp\"/>
+    <property name="java.version" value="21.0.4"/>
+    <property name="user.dir" value="C:\Users\saurabh yadav\Downloads\Myproject\Myproject\Myproject"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-21\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\nodejs\;C:\Program Files\Java\jdk1.8.0_161;C:\Program Files\Java\jdk1.8.0_161\bin;C:\apache-maven-3.9.6\bin;C:\Program Files\Git\cmd;C:\Users\saurabh yadav\AppData\Local\Microsoft\WindowsApps\C:\Program Files\Java\C:\Program Files\Java\jdk-21\bin\C:\Program Files\Java\jdk1.8.0_161\C:\Program Files\Java\jdk1.8.0_161\bin;C:\Users\saurabh yadav\AppData\Roaming\npm;C:\Program Files\nodejs;C:\Program Files\Java\jdk1.8.0_161;;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2023.3.4\bin;;C:\Users\saurabh yadav\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\saurabh yadav\AppData\Local\Microsoft\WindowsApps;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="Cp1252"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="21.0.4+8-LTS-274"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="65.0"/>
+  </properties>
+  <testcase name="runScenario[&quot;Create a user&quot;, &quot;User API&quot;](1)" classname="runners.TestNGApiRunner" time="0.436">
+    <failure message="The step &apos;I send a POST request to &quot;/users&quot;&apos; is undefined.&#10;You can implement this step using the snippet(s) below:&#10;&#10;@When(&quot;I send a POST request to {string}&quot;)&#10;public void i_send_a_post_request_to(String string) {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;" type="io.cucumber.testng.UndefinedStepException"><![CDATA[io.cucumber.testng.UndefinedStepException: 
+The step 'I send a POST request to "/users"' is undefined.
+You can implement this step using the snippet(s) below:
+
+@When("I send a POST request to {string}")
+public void i_send_a_post_request_to(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+	at ✽.I send a POST request to "/users"(file:///C:/Users/saurabh%20yadav/Downloads/Myproject/Myproject/Myproject/src/test/resources/features/api/user_crud.feature:5)
+]]></failure>
+    <system-out><![CDATA[
+Scenario: Create a user                                           # src/test/resources/features/api/user_crud.feature:3
+  Given I use user test data "validUser"                          # stepdefs.api.UserApiSteps.i_use_user_test_data(java.lang.String)
+  When I send a POST request to "/users"
+  Then Response code should be 201                                # stepdefs.api.UserApiSteps.response_code_should_be(java.lang.Integer)
+  And Response header "Content-Type" should be "application/json" # stepdefs.api.UserApiSteps.response_header_should_be(java.lang.String,java.lang.String)
+]]></system-out>
+    <system-err><![CDATA[SLF4J(W): No SLF4J providers were found.
+SLF4J(W): Defaulting to no-operation (NOP) logger implementation
+SLF4J(W): See https://www.slf4j.org/codes.html#noProviders for further details.
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;Get user by ID&quot;, &quot;User API&quot;](2)" classname="runners.TestNGApiRunner" time="1.896">
+    <failure message="expected [200] but found [404]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected [200] but found [404]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1590)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+	at org.testng.Assert.assertEquals(Assert.java:132)
+	at org.testng.Assert.assertEquals(Assert.java:1431)
+	at org.testng.Assert.assertEquals(Assert.java:1395)
+	at org.testng.Assert.assertEquals(Assert.java:1441)
+	at stepdefs.api.UserApiSteps.response_code_should_be(UserApiSteps.java:114)
+	at ✽.Response code should be 200(file:///C:/Users/saurabh%20yadav/Downloads/Myproject/Myproject/Myproject/src/test/resources/features/api/user_crud.feature:11)
+]]></failure>
+    <system-out><![CDATA[
+Scenario: Get user by ID                                          # src/test/resources/features/api/user_crud.feature:9
+Request method:	GET
+Request URI:	http://localhost:3000/users/null
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 404 Not Found
+X-Powered-By: tinyhttp
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: GET, HEAD, PUT, PATCH, POST, DELETE
+Access-Control-Allow-Headers: content-type
+Content-Type: text/plain; charset=utf-8
+etag: W/"9-0gXL1ngzMqISxa6S1zx3F4wtLyg"
+Date: Tue, 15 Jul 2025 09:54:53 GMT
+Connection: keep-alive
+Keep-Alive: timeout=5
+Content-Length: 9
+
+Not Found
+  When I send a GET request to get the created user               # stepdefs.api.UserApiSteps.i_send_a_get_request_to_get_the_created_user()
+  Then Response code should be 200                                # stepdefs.api.UserApiSteps.response_code_should_be(java.lang.Integer)
+      java.lang.AssertionError: expected [200] but found [404]
+      	at org.testng.Assert.fail(Assert.java:111)
+      	at org.testng.Assert.failNotEquals(Assert.java:1590)
+      	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+      	at org.testng.Assert.assertEquals(Assert.java:132)
+      	at org.testng.Assert.assertEquals(Assert.java:1431)
+      	at org.testng.Assert.assertEquals(Assert.java:1395)
+      	at org.testng.Assert.assertEquals(Assert.java:1441)
+      	at stepdefs.api.UserApiSteps.response_code_should_be(UserApiSteps.java:114)
+      	at ✽.Response code should be 200(file:///C:/Users/saurabh%20yadav/Downloads/Myproject/Myproject/Myproject/src/test/resources/features/api/user_crud.feature:11)
+  And Response should contain "Vikash"                            # stepdefs.api.UserApiSteps.response_should_contain(java.lang.String)
+  And Response header "Content-Type" should be "application/json" # stepdefs.api.UserApiSteps.response_header_should_be(java.lang.String,java.lang.String)
+]]></system-out>
+    <system-err><![CDATA[Warning: Expected status code 200 but got 404
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;Update user&quot;, &quot;User API&quot;](3)" classname="runners.TestNGApiRunner" time="0.025">
+    <failure message="The step &apos;I send a PUT request to &quot;/users/{id}&quot; with updated name &quot;Vikash Updated&quot; and email &quot;vikash.updated@test.com&quot;&apos; is undefined.&#10;You can implement this step using the snippet(s) below:&#10;&#10;@When(&quot;I send a PUT request to {string} with updated name {string} and email {string}&quot;)&#10;public void i_send_a_put_request_to_with_updated_name_and_email(String string, String string2, String string3) {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;" type="io.cucumber.testng.UndefinedStepException"><![CDATA[io.cucumber.testng.UndefinedStepException: 
+The step 'I send a PUT request to "/users/{id}" with updated name "Vikash Updated" and email "vikash.updated@test.com"' is undefined.
+You can implement this step using the snippet(s) below:
+
+@When("I send a PUT request to {string} with updated name {string} and email {string}")
+public void i_send_a_put_request_to_with_updated_name_and_email(String string, String string2, String string3) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+	at ✽.I send a PUT request to "/users/{id}" with updated name "Vikash Updated" and email "vikash.updated@test.com"(file:///C:/Users/saurabh%20yadav/Downloads/Myproject/Myproject/Myproject/src/test/resources/features/api/user_crud.feature:16)
+]]></failure>
+    <system-out><![CDATA[
+Scenario: Update user                                                                                               # src/test/resources/features/api/user_crud.feature:15
+  When I send a PUT request to "/users/{id}" with updated name "Vikash Updated" and email "vikash.updated@test.com"
+  Then Response code should be 200                                                                                  # stepdefs.api.UserApiSteps.response_code_should_be(java.lang.Integer)
+  And Response header "Content-Type" should be "application/json"                                                   # stepdefs.api.UserApiSteps.response_header_should_be(java.lang.String,java.lang.String)
+]]></system-out>
+  </testcase>
+  <testcase name="runScenario[&quot;Delete user&quot;, &quot;User API&quot;](4)" classname="runners.TestNGApiRunner" time="0.023">
+    <failure message="The step &apos;I send a DELETE request to &quot;/users/{id}&quot; for the created user&apos; is undefined.&#10;You can implement this step using the snippet(s) below:&#10;&#10;@When(&quot;I send a DELETE request to {string} for the created user&quot;)&#10;public void i_send_a_delete_request_to_for_the_created_user(String string) {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;" type="io.cucumber.testng.UndefinedStepException"><![CDATA[io.cucumber.testng.UndefinedStepException: 
+The step 'I send a DELETE request to "/users/{id}" for the created user' is undefined.
+You can implement this step using the snippet(s) below:
+
+@When("I send a DELETE request to {string} for the created user")
+public void i_send_a_delete_request_to_for_the_created_user(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+	at ✽.I send a DELETE request to "/users/{id}" for the created user(file:///C:/Users/saurabh%20yadav/Downloads/Myproject/Myproject/Myproject/src/test/resources/features/api/user_crud.feature:21)
+]]></failure>
+    <system-out><![CDATA[
+Scenario: Delete user                                                # src/test/resources/features/api/user_crud.feature:20
+  When I send a DELETE request to "/users/{id}" for the created user
+  Then Response code should be 200                                   # stepdefs.api.UserApiSteps.response_code_should_be(java.lang.Integer)
+  And Response header "Content-Type" should be "application/json"    # stepdefs.api.UserApiSteps.response_header_should_be(java.lang.String,java.lang.String)
+]]></system-out>
+  </testcase>
+  <testcase name="runScenario[&quot;Get user with invalid ID&quot;, &quot;User API&quot;](5)" classname="runners.TestNGApiRunner" time="0.043">
+    <failure message="Expected error message not found: User not found expected [true] but found [false]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: Expected error message not found: User not found expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1590)
+	at org.testng.Assert.assertTrue(Assert.java:57)
+	at stepdefs.api.UserApiSteps.response_should_have_error_message(UserApiSteps.java:141)
+	at ✽.Response should have error message "User not found"(file:///C:/Users/saurabh%20yadav/Downloads/Myproject/Myproject/Myproject/src/test/resources/features/api/user_crud.feature:28)
+]]></failure>
+    <system-out><![CDATA[
+Scenario: Get user with invalid ID                                # src/test/resources/features/api/user_crud.feature:25
+Request method:	GET
+Request URI:	http://localhost:3000/users/9999
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 404 Not Found
+X-Powered-By: tinyhttp
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: GET, HEAD, PUT, PATCH, POST, DELETE
+Access-Control-Allow-Headers: content-type
+Content-Type: text/plain; charset=utf-8
+etag: W/"9-0gXL1ngzMqISxa6S1zx3F4wtLyg"
+Date: Tue, 15 Jul 2025 09:54:53 GMT
+Connection: keep-alive
+Keep-Alive: timeout=5
+Content-Length: 9
+
+Not Found
+  When I send a GET request to "/users/9999"                      # stepdefs.api.UserApiSteps.i_send_a_get_request_to(java.lang.String)
+  Then Response code should be 404                                # stepdefs.api.UserApiSteps.response_code_should_be(java.lang.Integer)
+  And Response should have error message "User not found"         # stepdefs.api.UserApiSteps.response_should_have_error_message(java.lang.String)
+      java.lang.AssertionError: Expected error message not found: User not found expected [true] but found [false]
+      	at org.testng.Assert.fail(Assert.java:111)
+      	at org.testng.Assert.failNotEquals(Assert.java:1590)
+      	at org.testng.Assert.assertTrue(Assert.java:57)
+      	at stepdefs.api.UserApiSteps.response_should_have_error_message(UserApiSteps.java:141)
+      	at ✽.Response should have error message "User not found"(file:///C:/Users/saurabh%20yadav/Downloads/Myproject/Myproject/Myproject/src/test/resources/features/api/user_crud.feature:28)
+  And Response header "Content-Type" should be "application/json" # stepdefs.api.UserApiSteps.response_header_should_be(java.lang.String,java.lang.String)
+]]></system-out>
+  </testcase>
+  <testcase name="runScenario[&quot;Create user with missing name&quot;, &quot;User API&quot;](6)" classname="runners.TestNGApiRunner" time="0.019">
+    <failure message="The step &apos;I send a POST request to &quot;/users&quot;&apos; is undefined.&#10;You can implement this step using the snippet(s) below:&#10;&#10;@When(&quot;I send a POST request to {string}&quot;)&#10;public void i_send_a_post_request_to(String string) {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;" type="io.cucumber.testng.UndefinedStepException"><![CDATA[io.cucumber.testng.UndefinedStepException: 
+The step 'I send a POST request to "/users"' is undefined.
+You can implement this step using the snippet(s) below:
+
+@When("I send a POST request to {string}")
+public void i_send_a_post_request_to(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+	at ✽.I send a POST request to "/users"(file:///C:/Users/saurabh%20yadav/Downloads/Myproject/Myproject/Myproject/src/test/resources/features/api/user_crud.feature:33)
+]]></failure>
+    <system-out><![CDATA[
+Scenario: Create user with missing name                           # src/test/resources/features/api/user_crud.feature:31
+  Given I use user test data "missingNameUser"                    # stepdefs.api.UserApiSteps.i_use_user_test_data(java.lang.String)
+  When I send a POST request to "/users"
+  Then Response code should be 400                                # stepdefs.api.UserApiSteps.response_code_should_be(java.lang.Integer)
+  And Response should have error message "Name is required"       # stepdefs.api.UserApiSteps.response_should_have_error_message(java.lang.String)
+  And Response header "Content-Type" should be "application/json" # stepdefs.api.UserApiSteps.response_header_should_be(java.lang.String,java.lang.String)
+]]></system-out>
+  </testcase>
+  <testcase name="runScenario[&quot;Create user with invalid email&quot;, &quot;User API&quot;](7)" classname="runners.TestNGApiRunner" time="0.023">
+    <failure message="The step &apos;I send a POST request to &quot;/users&quot;&apos; is undefined.&#10;You can implement this step using the snippet(s) below:&#10;&#10;@When(&quot;I send a POST request to {string}&quot;)&#10;public void i_send_a_post_request_to(String string) {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;" type="io.cucumber.testng.UndefinedStepException"><![CDATA[io.cucumber.testng.UndefinedStepException: 
+The step 'I send a POST request to "/users"' is undefined.
+You can implement this step using the snippet(s) below:
+
+@When("I send a POST request to {string}")
+public void i_send_a_post_request_to(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+	at ✽.I send a POST request to "/users"(file:///C:/Users/saurabh%20yadav/Downloads/Myproject/Myproject/Myproject/src/test/resources/features/api/user_crud.feature:40)
+]]></failure>
+    <system-out><![CDATA[
+Scenario: Create user with invalid email                          # src/test/resources/features/api/user_crud.feature:38
+  Given I use user test data "invalidEmailUser"                   # stepdefs.api.UserApiSteps.i_use_user_test_data(java.lang.String)
+  When I send a POST request to "/users"
+  Then Response code should be 400                                # stepdefs.api.UserApiSteps.response_code_should_be(java.lang.Integer)
+  And Response should have error message "Invalid email format"   # stepdefs.api.UserApiSteps.response_should_have_error_message(java.lang.String)
+  And Response header "Content-Type" should be "application/json" # stepdefs.api.UserApiSteps.response_header_should_be(java.lang.String,java.lang.String)
+]]></system-out>
+  </testcase>
+  <testcase name="runScenario[&quot;Get all users&quot;, &quot;User API&quot;](8)" classname="runners.TestNGApiRunner" time="0.076">
+    <system-out><![CDATA[
+Scenario: Get all users                 # src/test/resources/features/api/user_crud.feature:46
+Request method:	GET
+Request URI:	http://localhost:3000/users
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+X-Powered-By: tinyhttp
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: GET, HEAD, PUT, PATCH, POST, DELETE
+Access-Control-Allow-Headers: content-type
+Content-Type: application/json
+Date: Tue, 15 Jul 2025 09:54:54 GMT
+Connection: keep-alive
+Keep-Alive: timeout=5
+Content-Length: 5401
+
+[
+    {
+        "id": "d4e3",
+        "name": "Vikash",
+        "email": "vikash@test.com"
+    },
+    {
+        "id": "090d",
+        "name": "Vikash",
+        "email": "vikash@test.com"
+    },
+    {
+        "id": "818a",
+        "name": "",
+        "email": "missingname@test.com"
+    },
+    {
+        "id": "c073",
+        "name": "Invalid Email",
+        "email": "invalidemail"
+    },
+    {
+        "id": "927e",
+        "name": "Vikash",
+        "email": "vikash@test.com"
+    },
+    {
+        "id": "5730",
+        "name": "",
+        "email": "missingname@test.com"
+    },
+    {
+        "id": "78e4",
+        "name": "Invalid Email",
+        "email": "invalidemail"
+    },
+    {
+        "id": "26e1",
+        "name": "Vikash",
+        "email": "vikash@test.com"
+    },
+    {
+        "id": "a27a",
+        "name": "",
+        "email": "missingname@test.com"
+    },
+    {
+        "id": "b36e",
+        "name": "Invalid Email",
+        "email": "invalidemail"
+    },
+    {
+        "id": "4eec",
+        "name": "Vikash",
+        "email": "vikash@test.com"
+    },
+    {
+        "id": "1b8c",
+        "name": "",
+        "email": "missingname@test.com"
+    },
+    {
+        "id": "f3d2",
+        "name": "Invalid Email",
+        "email": "invalidemail"
+    },
+    {
+        "id": "197b",
+        "name": "Vikash",
+        "email": "vikash@test.com"
+    },
+    {
+        "id": "82b7",
+        "name": "",
+        "email": "missingname@test.com"
+    },
+    {
+        "id": "2903",
+        "name": "Invalid Email",
+        "email": "invalidemail"
+    },
+    {
+        "id": "c09b",
+        "name": "Vikash",
+        "email": "vikash@test.com"
+    },
+    {
+        "id": "a2c4",
+        "name": "",
+        "email": "missingname@test.com"
+    },
+    {
+        "id": "907c",
+        "name": "Invalid Email",
+        "email": "invalidemail"
+    },
+    {
+        "id": "feae",
+        "name": "Vikash",
+        "email": "vikash@test.com"
+    },
+    {
+        "id": "bc3e",
+        "name": "",
+        "email": "missingname@test.com"
+    },
+    {
+        "id": "0efd",
+        "name": "Invalid Email",
+        "email": "invalidemail"
+    },
+    {
+        "id": "43d3",
+        "name": "Vikash",
+        "email": "vikash@test.com"
+    },
+    {
+        "id": "0dd3",
+        "name": "",
+        "email": "missingname@test.com"
+    },
+    {
+        "id": "920d",
+        "name": "Invalid Email",
+        "email": "invalidemail"
+    },
+    {
+        "id": "dd2e",
+        "name": "Vikash",
+        "email": "vikash@test.com"
+    },
+    {
+        "id": "9acd",
+        "name": "",
+        "email": "missingname@test.com"
+    },
+    {
+        "id": "69b2",
+        "name": "Invalid Email",
+        "email": "invalidemail"
+    },
+    {
+        "id": "d5d8",
+        "name": "Vikash",
+        "email": "vikash@test.com"
+    },
+    {
+        "id": "4890",
+        "name": "",
+        "email": "missingname@test.com"
+    },
+    {
+        "id": "cabf",
+        "name": "Invalid Email",
+        "email": "invalidemail"
+    },
+    {
+        "id": "3d3f",
+        "name": "Vikash",
+        "email": "vikash@test.com"
+    },
+    {
+        "id": "fcc7",
+        "name": "",
+        "email": "missingname@test.com"
+    },
+    {
+        "id": "53b3",
+        "name": "Invalid Email",
+        "email": "invalidemail"
+    },
+    {
+        "id": "f596",
+        "name": "Vikash",
+        "email": "vikash@test.com"
+    },
+    {
+        "id": "c77f",
+        "name": "",
+        "email": "missingname@test.com"
+    },
+    {
+        "id": "4615",
+        "name": "Invalid Email",
+        "email": "invalidemail"
+    },
+    {
+        "id": "b32d",
+        "name": "Vikash",
+        "email": "vikash@test.com"
+    },
+    {
+        "id": "b567",
+        "name": "",
+        "email": "missingname@test.com"
+    },
+    {
+        "id": "8d37",
+        "name": "Invalid Email",
+        "email": "invalidemail"
+    },
+    {
+        "id": "7ff5",
+        "name": "",
+        "email": "missingname@test.com"
+    },
+    {
+        "id": "fd31",
+        "name": "Invalid Email",
+        "email": "invalidemail"
+    },
+    {
+        "id": "5ab2",
+        "name": "",
+        "email": "missingname@test.com"
+    },
+    {
+        "id": "5e77",
+        "name": "Invalid Email",
+        "email": "invalidemail"
+    },
+    {
+        "id": "05cd",
+        "name": "John@Doe!",
+        "email": "john.special@test.com"
+    },
+    {
+        "id": "9829",
+        "name": "ABCDEFGHIJKLMNOPQRSTUVWXYZABCDEFGHIJKLMNOPQRSTUVWXYZ",
+        "email": "max.name@test.com"
+    },
+    {
+        "id": "06c0",
+        "name": "Case Test",
+        "email": "Case.Test@TeSt.CoM"
+    },
+    {
+        "id": "5714",
+        "name": "No Email",
+        "email": ""
+    },
+    {
+        "id": "c3ca",
+        "name": "ABCDEFGHIJKLMNOPQRSTUVWXYZABCDEFGHIJKLMNOPQRSTUVWXYZABCDEFGHIJKLMNOPQRSTUVWXYZ",
+        "email": "toolong.name@test.com"
+    },
+    {
+        "id": "5a87",
+        "name": "Too Long Email",
+        "email": "abcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyz@test.com"
+    },
+    {
+        "id": "7ef0",
+        "name": "Duplicate",
+        "email": "vikash@test.com"
+    },
+    {
+        "id": "428d",
+        "name": "",
+        "email": "missingname@test.com"
+    },
+    {
+        "id": "2d07",
+        "name": "Invalid Email",
+        "email": "invalidemail"
+    },
+    {
+        "id": "6d34",
+        "name": "John@Doe!",
+        "email": "john.special@test.com"
+    },
+    {
+        "id": "1db9",
+        "name": "ABCDEFGHIJKLMNOPQRSTUVWXYZABCDEFGHIJKLMNOPQRSTUVWXYZ",
+        "email": "max.name@test.com"
+    },
+    {
+        "id": "70d6",
+        "name": "Max Email",
+        "email": "abcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyz@test.com"
+    },
+    {
+        "id": "b22f",
+        "name": "Case Test",
+        "email": "Case.Test@TeSt.CoM"
+    },
+    {
+        "id": "67c3",
+        "name": "No Email",
+        "email": ""
+    },
+    {
+        "id": "599e",
+        "name": "ABCDEFGHIJKLMNOPQRSTUVWXYZABCDEFGHIJKLMNOPQRSTUVWXYZABCDEFGHIJKLMNOPQRSTUVWXYZ",
+        "email": "toolong.name@test.com"
+    },
+    {
+        "id": "4e81",
+        "name": "Too Long Email",
+        "email": "abcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyz@test.com"
+    },
+    {
+        "id": "c23b",
+        "name": "Duplicate",
+        "email": "vikash@test.com"
+    }
+]
+  When I send a GET request to "/users" # stepdefs.api.UserApiSteps.i_send_a_get_request_to(java.lang.String)
+  Then Response code should be 200      # stepdefs.api.UserApiSteps.response_code_should_be(java.lang.Integer)
+]]></system-out>
+  </testcase>
+  <testcase name="runScenario[&quot;Create user with special characters in name&quot;, &quot;User API&quot;](9)" classname="runners.TestNGApiRunner" time="0.019">
+    <failure message="The step &apos;I send a POST request to &quot;/users&quot;&apos; is undefined.&#10;You can implement this step using the snippet(s) below:&#10;&#10;@When(&quot;I send a POST request to {string}&quot;)&#10;public void i_send_a_post_request_to(String string) {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;" type="io.cucumber.testng.UndefinedStepException"><![CDATA[io.cucumber.testng.UndefinedStepException: 
+The step 'I send a POST request to "/users"' is undefined.
+You can implement this step using the snippet(s) below:
+
+@When("I send a POST request to {string}")
+public void i_send_a_post_request_to(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+	at ✽.I send a POST request to "/users"(file:///C:/Users/saurabh%20yadav/Downloads/Myproject/Myproject/Myproject/src/test/resources/features/api/user_crud.feature:52)
+]]></failure>
+    <system-out><![CDATA[
+Scenario: Create user with special characters in name # src/test/resources/features/api/user_crud.feature:50
+  Given I use user test data "specialCharUser"        # stepdefs.api.UserApiSteps.i_use_user_test_data(java.lang.String)
+  When I send a POST request to "/users"
+  Then Response code should be 201                    # stepdefs.api.UserApiSteps.response_code_should_be(java.lang.Integer)
+]]></system-out>
+  </testcase>
+  <testcase name="runScenario[&quot;Create user with maximum allowed name length&quot;, &quot;User API&quot;](10)" classname="runners.TestNGApiRunner" time="0.025">
+    <failure message="The step &apos;I send a POST request to &quot;/users&quot;&apos; is undefined.&#10;You can implement this step using the snippet(s) below:&#10;&#10;@When(&quot;I send a POST request to {string}&quot;)&#10;public void i_send_a_post_request_to(String string) {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;" type="io.cucumber.testng.UndefinedStepException"><![CDATA[io.cucumber.testng.UndefinedStepException: 
+The step 'I send a POST request to "/users"' is undefined.
+You can implement this step using the snippet(s) below:
+
+@When("I send a POST request to {string}")
+public void i_send_a_post_request_to(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+	at ✽.I send a POST request to "/users"(file:///C:/Users/saurabh%20yadav/Downloads/Myproject/Myproject/Myproject/src/test/resources/features/api/user_crud.feature:57)
+]]></failure>
+    <system-out><![CDATA[
+Scenario: Create user with maximum allowed name length # src/test/resources/features/api/user_crud.feature:55
+  Given I use user test data "maxNameUser"             # stepdefs.api.UserApiSteps.i_use_user_test_data(java.lang.String)
+  When I send a POST request to "/users"
+  Then Response code should be 201                     # stepdefs.api.UserApiSteps.response_code_should_be(java.lang.Integer)
+]]></system-out>
+  </testcase>
+  <testcase name="runScenario[&quot;Create user with maximum allowed email length&quot;, &quot;User API&quot;](11)" classname="runners.TestNGApiRunner" time="0.021">
+    <failure message="The step &apos;I send a POST request to &quot;/users&quot;&apos; is undefined.&#10;You can implement this step using the snippet(s) below:&#10;&#10;@When(&quot;I send a POST request to {string}&quot;)&#10;public void i_send_a_post_request_to(String string) {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;" type="io.cucumber.testng.UndefinedStepException"><![CDATA[io.cucumber.testng.UndefinedStepException: 
+The step 'I send a POST request to "/users"' is undefined.
+You can implement this step using the snippet(s) below:
+
+@When("I send a POST request to {string}")
+public void i_send_a_post_request_to(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+	at ✽.I send a POST request to "/users"(file:///C:/Users/saurabh%20yadav/Downloads/Myproject/Myproject/Myproject/src/test/resources/features/api/user_crud.feature:62)
+]]></failure>
+    <system-out><![CDATA[
+Scenario: Create user with maximum allowed email length # src/test/resources/features/api/user_crud.feature:60
+  Given I use user test data "maxEmailUser"             # stepdefs.api.UserApiSteps.i_use_user_test_data(java.lang.String)
+  When I send a POST request to "/users"
+  Then Response code should be 201                      # stepdefs.api.UserApiSteps.response_code_should_be(java.lang.Integer)
+]]></system-out>
+  </testcase>
+  <testcase name="runScenario[&quot;Update user with valid new email&quot;, &quot;User API&quot;](12)" classname="runners.TestNGApiRunner" time="0.027">
+    <failure message="The step &apos;I send a PUT request to &quot;/users/{id}&quot; with updated name &quot;Vikash&quot;, and email &quot;vikash.new@test.com&quot;&apos; is undefined.&#10;You can implement this step using the snippet(s) below:&#10;&#10;@When(&quot;I send a PUT request to {string} with updated name {string}, and email {string}&quot;)&#10;public void i_send_a_put_request_to_with_updated_name_and_email(String string, String string2, String string3) {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;" type="io.cucumber.testng.UndefinedStepException"><![CDATA[io.cucumber.testng.UndefinedStepException: 
+The step 'I send a PUT request to "/users/{id}" with updated name "Vikash", and email "vikash.new@test.com"' is undefined.
+You can implement this step using the snippet(s) below:
+
+@When("I send a PUT request to {string} with updated name {string}, and email {string}")
+public void i_send_a_put_request_to_with_updated_name_and_email(String string, String string2, String string3) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+	at ✽.I send a PUT request to "/users/{id}" with updated name "Vikash", and email "vikash.new@test.com"(file:///C:/Users/saurabh%20yadav/Downloads/Myproject/Myproject/Myproject/src/test/resources/features/api/user_crud.feature:66)
+]]></failure>
+    <system-out><![CDATA[
+Scenario: Update user with valid new email                                                               # src/test/resources/features/api/user_crud.feature:65
+  When I send a PUT request to "/users/{id}" with updated name "Vikash", and email "vikash.new@test.com"
+  Then Response code should be 200                                                                       # stepdefs.api.UserApiSteps.response_code_should_be(java.lang.Integer)
+]]></system-out>
+  </testcase>
+  <testcase name="runScenario[&quot;Delete user and verify deletion&quot;, &quot;User API&quot;](13)" classname="runners.TestNGApiRunner" time="0.021">
+    <failure message="The step &apos;I send a DELETE request to &quot;/users/{id}&quot; for the created user&apos; is undefined.&#10;You can implement this step using the snippet(s) below:&#10;&#10;@When(&quot;I send a DELETE request to {string} for the created user&quot;)&#10;public void i_send_a_delete_request_to_for_the_created_user(String string) {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;" type="io.cucumber.testng.UndefinedStepException"><![CDATA[io.cucumber.testng.UndefinedStepException: 
+The step 'I send a DELETE request to "/users/{id}" for the created user' is undefined.
+You can implement this step using the snippet(s) below:
+
+@When("I send a DELETE request to {string} for the created user")
+public void i_send_a_delete_request_to_for_the_created_user(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+	at ✽.I send a DELETE request to "/users/{id}" for the created user(file:///C:/Users/saurabh%20yadav/Downloads/Myproject/Myproject/Myproject/src/test/resources/features/api/user_crud.feature:70)
+]]></failure>
+    <system-out><![CDATA[
+Scenario: Delete user and verify deletion                            # src/test/resources/features/api/user_crud.feature:69
+  When I send a DELETE request to "/users/{id}" for the created user
+  Then Response code should be 200                                   # stepdefs.api.UserApiSteps.response_code_should_be(java.lang.Integer)
+  When I send a GET request to "/users/{id}"                         # stepdefs.api.UserApiSteps.i_send_a_get_request_to(java.lang.String)
+  Then Response code should be 404                                   # stepdefs.api.UserApiSteps.response_code_should_be(java.lang.Integer)
+]]></system-out>
+  </testcase>
+  <testcase name="runScenario[&quot;Create user with mixed-case email&quot;, &quot;User API&quot;](14)" classname="runners.TestNGApiRunner" time="0.023">
+    <failure message="The step &apos;I send a POST request to &quot;/users&quot;&apos; is undefined.&#10;You can implement this step using the snippet(s) below:&#10;&#10;@When(&quot;I send a POST request to {string}&quot;)&#10;public void i_send_a_post_request_to(String string) {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;" type="io.cucumber.testng.UndefinedStepException"><![CDATA[io.cucumber.testng.UndefinedStepException: 
+The step 'I send a POST request to "/users"' is undefined.
+You can implement this step using the snippet(s) below:
+
+@When("I send a POST request to {string}")
+public void i_send_a_post_request_to(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+	at ✽.I send a POST request to "/users"(file:///C:/Users/saurabh%20yadav/Downloads/Myproject/Myproject/Myproject/src/test/resources/features/api/user_crud.feature:77)
+]]></failure>
+    <system-out><![CDATA[
+Scenario: Create user with mixed-case email       # src/test/resources/features/api/user_crud.feature:75
+  Given I use user test data "mixedCaseEmailUser" # stepdefs.api.UserApiSteps.i_use_user_test_data(java.lang.String)
+  When I send a POST request to "/users"
+  Then Response code should be 201                # stepdefs.api.UserApiSteps.response_code_should_be(java.lang.Integer)
+]]></system-out>
+  </testcase>
+  <testcase name="runScenario[&quot;Create user with missing email&quot;, &quot;User API&quot;](15)" classname="runners.TestNGApiRunner" time="0.023">
+    <failure message="The step &apos;I send a POST request to &quot;/users&quot;&apos; is undefined.&#10;You can implement this step using the snippet(s) below:&#10;&#10;@When(&quot;I send a POST request to {string}&quot;)&#10;public void i_send_a_post_request_to(String string) {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;" type="io.cucumber.testng.UndefinedStepException"><![CDATA[io.cucumber.testng.UndefinedStepException: 
+The step 'I send a POST request to "/users"' is undefined.
+You can implement this step using the snippet(s) below:
+
+@When("I send a POST request to {string}")
+public void i_send_a_post_request_to(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+	at ✽.I send a POST request to "/users"(file:///C:/Users/saurabh%20yadav/Downloads/Myproject/Myproject/Myproject/src/test/resources/features/api/user_crud.feature:83)
+]]></failure>
+    <system-out><![CDATA[
+Scenario: Create user with missing email        # src/test/resources/features/api/user_crud.feature:81
+  Given I use user test data "missingEmailUser" # stepdefs.api.UserApiSteps.i_use_user_test_data(java.lang.String)
+  When I send a POST request to "/users"
+  Then Response code should be 400              # stepdefs.api.UserApiSteps.response_code_should_be(java.lang.Integer)
+]]></system-out>
+  </testcase>
+  <testcase name="runScenario[&quot;Create user with name exceeding max length&quot;, &quot;User API&quot;](16)" classname="runners.TestNGApiRunner" time="0.02">
+    <failure message="The step &apos;I send a POST request to &quot;/users&quot;&apos; is undefined.&#10;You can implement this step using the snippet(s) below:&#10;&#10;@When(&quot;I send a POST request to {string}&quot;)&#10;public void i_send_a_post_request_to(String string) {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;" type="io.cucumber.testng.UndefinedStepException"><![CDATA[io.cucumber.testng.UndefinedStepException: 
+The step 'I send a POST request to "/users"' is undefined.
+You can implement this step using the snippet(s) below:
+
+@When("I send a POST request to {string}")
+public void i_send_a_post_request_to(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+	at ✽.I send a POST request to "/users"(file:///C:/Users/saurabh%20yadav/Downloads/Myproject/Myproject/Myproject/src/test/resources/features/api/user_crud.feature:88)
+]]></failure>
+    <system-out><![CDATA[
+Scenario: Create user with name exceeding max length # src/test/resources/features/api/user_crud.feature:86
+  Given I use user test data "longNameUser"          # stepdefs.api.UserApiSteps.i_use_user_test_data(java.lang.String)
+  When I send a POST request to "/users"
+  Then Response code should be 400                   # stepdefs.api.UserApiSteps.response_code_should_be(java.lang.Integer)
+]]></system-out>
+  </testcase>
+  <testcase name="runScenario[&quot;Create user with email exceeding max length&quot;, &quot;User API&quot;](17)" classname="runners.TestNGApiRunner" time="0.016">
+    <failure message="The step &apos;I send a POST request to &quot;/users&quot;&apos; is undefined.&#10;You can implement this step using the snippet(s) below:&#10;&#10;@When(&quot;I send a POST request to {string}&quot;)&#10;public void i_send_a_post_request_to(String string) {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;" type="io.cucumber.testng.UndefinedStepException"><![CDATA[io.cucumber.testng.UndefinedStepException: 
+The step 'I send a POST request to "/users"' is undefined.
+You can implement this step using the snippet(s) below:
+
+@When("I send a POST request to {string}")
+public void i_send_a_post_request_to(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+	at ✽.I send a POST request to "/users"(file:///C:/Users/saurabh%20yadav/Downloads/Myproject/Myproject/Myproject/src/test/resources/features/api/user_crud.feature:93)
+]]></failure>
+    <system-out><![CDATA[
+Scenario: Create user with email exceeding max length # src/test/resources/features/api/user_crud.feature:91
+  Given I use user test data "longEmailUser"          # stepdefs.api.UserApiSteps.i_use_user_test_data(java.lang.String)
+  When I send a POST request to "/users"
+  Then Response code should be 400                    # stepdefs.api.UserApiSteps.response_code_should_be(java.lang.Integer)
+]]></system-out>
+  </testcase>
+  <testcase name="runScenario[&quot;Update user with invalid ID&quot;, &quot;User API&quot;](18)" classname="runners.TestNGApiRunner" time="0.021">
+    <failure message="The step &apos;I send a PUT request to &quot;/users/9999&quot; with updated name &quot;Invalid Update&quot;, and email &quot;invalid.update@test.com&quot;&apos; is undefined.&#10;You can implement this step using the snippet(s) below:&#10;&#10;@When(&quot;I send a PUT request to {string} with updated name {string}, and email {string}&quot;)&#10;public void i_send_a_put_request_to_with_updated_name_and_email(String string, String string2, String string3) {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;" type="io.cucumber.testng.UndefinedStepException"><![CDATA[io.cucumber.testng.UndefinedStepException: 
+The step 'I send a PUT request to "/users/9999" with updated name "Invalid Update", and email "invalid.update@test.com"' is undefined.
+You can implement this step using the snippet(s) below:
+
+@When("I send a PUT request to {string} with updated name {string}, and email {string}")
+public void i_send_a_put_request_to_with_updated_name_and_email(String string, String string2, String string3) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+	at ✽.I send a PUT request to "/users/9999" with updated name "Invalid Update", and email "invalid.update@test.com"(file:///C:/Users/saurabh%20yadav/Downloads/Myproject/Myproject/Myproject/src/test/resources/features/api/user_crud.feature:97)
+]]></failure>
+    <system-out><![CDATA[
+Scenario: Update user with invalid ID                                                                                # src/test/resources/features/api/user_crud.feature:96
+  When I send a PUT request to "/users/9999" with updated name "Invalid Update", and email "invalid.update@test.com"
+  Then Response code should be 404                                                                                   # stepdefs.api.UserApiSteps.response_code_should_be(java.lang.Integer)
+]]></system-out>
+  </testcase>
+  <testcase name="runScenario[&quot;Update user with invalid email&quot;, &quot;User API&quot;](19)" classname="runners.TestNGApiRunner" time="0.016">
+    <failure message="The step &apos;I send a PUT request to &quot;/users/{id}&quot; with updated name &quot;Invalid Email&quot;, and email &quot;notanemail&quot;&apos; is undefined.&#10;You can implement this step using the snippet(s) below:&#10;&#10;@When(&quot;I send a PUT request to {string} with updated name {string}, and email {string}&quot;)&#10;public void i_send_a_put_request_to_with_updated_name_and_email(String string, String string2, String string3) {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;" type="io.cucumber.testng.UndefinedStepException"><![CDATA[io.cucumber.testng.UndefinedStepException: 
+The step 'I send a PUT request to "/users/{id}" with updated name "Invalid Email", and email "notanemail"' is undefined.
+You can implement this step using the snippet(s) below:
+
+@When("I send a PUT request to {string} with updated name {string}, and email {string}")
+public void i_send_a_put_request_to_with_updated_name_and_email(String string, String string2, String string3) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+	at ✽.I send a PUT request to "/users/{id}" with updated name "Invalid Email", and email "notanemail"(file:///C:/Users/saurabh%20yadav/Downloads/Myproject/Myproject/Myproject/src/test/resources/features/api/user_crud.feature:101)
+]]></failure>
+    <system-out><![CDATA[
+Scenario: Update user with invalid email                                                               # src/test/resources/features/api/user_crud.feature:100
+  When I send a PUT request to "/users/{id}" with updated name "Invalid Email", and email "notanemail"
+  Then Response code should be 400                                                                     # stepdefs.api.UserApiSteps.response_code_should_be(java.lang.Integer)
+]]></system-out>
+  </testcase>
+  <testcase name="runScenario[&quot;Delete user with invalid ID&quot;, &quot;User API&quot;](20)" classname="runners.TestNGApiRunner" time="0.013">
+    <failure message="The step &apos;I send a DELETE request to &quot;/users/9999&quot; for the created user&apos; is undefined.&#10;You can implement this step using the snippet(s) below:&#10;&#10;@When(&quot;I send a DELETE request to {string} for the created user&quot;)&#10;public void i_send_a_delete_request_to_for_the_created_user(String string) {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;" type="io.cucumber.testng.UndefinedStepException"><![CDATA[io.cucumber.testng.UndefinedStepException: 
+The step 'I send a DELETE request to "/users/9999" for the created user' is undefined.
+You can implement this step using the snippet(s) below:
+
+@When("I send a DELETE request to {string} for the created user")
+public void i_send_a_delete_request_to_for_the_created_user(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+	at ✽.I send a DELETE request to "/users/9999" for the created user(file:///C:/Users/saurabh%20yadav/Downloads/Myproject/Myproject/Myproject/src/test/resources/features/api/user_crud.feature:105)
+]]></failure>
+    <system-out><![CDATA[
+Scenario: Delete user with invalid ID                                # src/test/resources/features/api/user_crud.feature:104
+  When I send a DELETE request to "/users/9999" for the created user
+  Then Response code should be 404                                   # stepdefs.api.UserApiSteps.response_code_should_be(java.lang.Integer)
+]]></system-out>
+  </testcase>
+  <testcase name="runScenario[&quot;Get all users when none exist&quot;, &quot;User API&quot;](21)" classname="runners.TestNGApiRunner" time="0.047">
+    <failure message="expected [false] but found [true]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected [false] but found [true]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1590)
+	at org.testng.Assert.assertFalse(Assert.java:79)
+	at org.testng.Assert.assertFalse(Assert.java:89)
+	at stepdefs.api.UserApiSteps.response_should_not_contain(UserApiSteps.java:124)
+	at ✽.Response should not contain "Vikash"(file:///C:/Users/saurabh%20yadav/Downloads/Myproject/Myproject/Myproject/src/test/resources/features/api/user_crud.feature:111)
+]]></failure>
+    <system-out><![CDATA[
+Scenario: Get all users when none exist    # src/test/resources/features/api/user_crud.feature:108
+Request method:	GET
+Request URI:	http://localhost:3000/users
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+X-Powered-By: tinyhttp
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: GET, HEAD, PUT, PATCH, POST, DELETE
+Access-Control-Allow-Headers: content-type
+Content-Type: application/json
+Date: Tue, 15 Jul 2025 09:54:54 GMT
+Connection: keep-alive
+Keep-Alive: timeout=5
+Content-Length: 5401
+
+[
+    {
+        "id": "d4e3",
+        "name": "Vikash",
+        "email": "vikash@test.com"
+    },
+    {
+        "id": "090d",
+        "name": "Vikash",
+        "email": "vikash@test.com"
+    },
+    {
+        "id": "818a",
+        "name": "",
+        "email": "missingname@test.com"
+    },
+    {
+        "id": "c073",
+        "name": "Invalid Email",
+        "email": "invalidemail"
+    },
+    {
+        "id": "927e",
+        "name": "Vikash",
+        "email": "vikash@test.com"
+    },
+    {
+        "id": "5730",
+        "name": "",
+        "email": "missingname@test.com"
+    },
+    {
+        "id": "78e4",
+        "name": "Invalid Email",
+        "email": "invalidemail"
+    },
+    {
+        "id": "26e1",
+        "name": "Vikash",
+        "email": "vikash@test.com"
+    },
+    {
+        "id": "a27a",
+        "name": "",
+        "email": "missingname@test.com"
+    },
+    {
+        "id": "b36e",
+        "name": "Invalid Email",
+        "email": "invalidemail"
+    },
+    {
+        "id": "4eec",
+        "name": "Vikash",
+        "email": "vikash@test.com"
+    },
+    {
+        "id": "1b8c",
+        "name": "",
+        "email": "missingname@test.com"
+    },
+    {
+        "id": "f3d2",
+        "name": "Invalid Email",
+        "email": "invalidemail"
+    },
+    {
+        "id": "197b",
+        "name": "Vikash",
+        "email": "vikash@test.com"
+    },
+    {
+        "id": "82b7",
+        "name": "",
+        "email": "missingname@test.com"
+    },
+    {
+        "id": "2903",
+        "name": "Invalid Email",
+        "email": "invalidemail"
+    },
+    {
+        "id": "c09b",
+        "name": "Vikash",
+        "email": "vikash@test.com"
+    },
+    {
+        "id": "a2c4",
+        "name": "",
+        "email": "missingname@test.com"
+    },
+    {
+        "id": "907c",
+        "name": "Invalid Email",
+        "email": "invalidemail"
+    },
+    {
+        "id": "feae",
+        "name": "Vikash",
+        "email": "vikash@test.com"
+    },
+    {
+        "id": "bc3e",
+        "name": "",
+        "email": "missingname@test.com"
+    },
+    {
+        "id": "0efd",
+        "name": "Invalid Email",
+        "email": "invalidemail"
+    },
+    {
+        "id": "43d3",
+        "name": "Vikash",
+        "email": "vikash@test.com"
+    },
+    {
+        "id": "0dd3",
+        "name": "",
+        "email": "missingname@test.com"
+    },
+    {
+        "id": "920d",
+        "name": "Invalid Email",
+        "email": "invalidemail"
+    },
+    {
+        "id": "dd2e",
+        "name": "Vikash",
+        "email": "vikash@test.com"
+    },
+    {
+        "id": "9acd",
+        "name": "",
+        "email": "missingname@test.com"
+    },
+    {
+        "id": "69b2",
+        "name": "Invalid Email",
+        "email": "invalidemail"
+    },
+    {
+        "id": "d5d8",
+        "name": "Vikash",
+        "email": "vikash@test.com"
+    },
+    {
+        "id": "4890",
+        "name": "",
+        "email": "missingname@test.com"
+    },
+    {
+        "id": "cabf",
+        "name": "Invalid Email",
+        "email": "invalidemail"
+    },
+    {
+        "id": "3d3f",
+        "name": "Vikash",
+        "email": "vikash@test.com"
+    },
+    {
+        "id": "fcc7",
+        "name": "",
+        "email": "missingname@test.com"
+    },
+    {
+        "id": "53b3",
+        "name": "Invalid Email",
+        "email": "invalidemail"
+    },
+    {
+        "id": "f596",
+        "name": "Vikash",
+        "email": "vikash@test.com"
+    },
+    {
+        "id": "c77f",
+        "name": "",
+        "email": "missingname@test.com"
+    },
+    {
+        "id": "4615",
+        "name": "Invalid Email",
+        "email": "invalidemail"
+    },
+    {
+        "id": "b32d",
+        "name": "Vikash",
+        "email": "vikash@test.com"
+    },
+    {
+        "id": "b567",
+        "name": "",
+        "email": "missingname@test.com"
+    },
+    {
+        "id": "8d37",
+        "name": "Invalid Email",
+        "email": "invalidemail"
+    },
+    {
+        "id": "7ff5",
+        "name": "",
+        "email": "missingname@test.com"
+    },
+    {
+        "id": "fd31",
+        "name": "Invalid Email",
+        "email": "invalidemail"
+    },
+    {
+        "id": "5ab2",
+        "name": "",
+        "email": "missingname@test.com"
+    },
+    {
+        "id": "5e77",
+        "name": "Invalid Email",
+        "email": "invalidemail"
+    },
+    {
+        "id": "05cd",
+        "name": "John@Doe!",
+        "email": "john.special@test.com"
+    },
+    {
+        "id": "9829",
+        "name": "ABCDEFGHIJKLMNOPQRSTUVWXYZABCDEFGHIJKLMNOPQRSTUVWXYZ",
+        "email": "max.name@test.com"
+    },
+    {
+        "id": "06c0",
+        "name": "Case Test",
+        "email": "Case.Test@TeSt.CoM"
+    },
+    {
+        "id": "5714",
+        "name": "No Email",
+        "email": ""
+    },
+    {
+        "id": "c3ca",
+        "name": "ABCDEFGHIJKLMNOPQRSTUVWXYZABCDEFGHIJKLMNOPQRSTUVWXYZABCDEFGHIJKLMNOPQRSTUVWXYZ",
+        "email": "toolong.name@test.com"
+    },
+    {
+        "id": "5a87",
+        "name": "Too Long Email",
+        "email": "abcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyz@test.com"
+    },
+    {
+        "id": "7ef0",
+        "name": "Duplicate",
+        "email": "vikash@test.com"
+    },
+    {
+        "id": "428d",
+        "name": "",
+        "email": "missingname@test.com"
+    },
+    {
+        "id": "2d07",
+        "name": "Invalid Email",
+        "email": "invalidemail"
+    },
+    {
+        "id": "6d34",
+        "name": "John@Doe!",
+        "email": "john.special@test.com"
+    },
+    {
+        "id": "1db9",
+        "name": "ABCDEFGHIJKLMNOPQRSTUVWXYZABCDEFGHIJKLMNOPQRSTUVWXYZ",
+        "email": "max.name@test.com"
+    },
+    {
+        "id": "70d6",
+        "name": "Max Email",
+        "email": "abcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyz@test.com"
+    },
+    {
+        "id": "b22f",
+        "name": "Case Test",
+        "email": "Case.Test@TeSt.CoM"
+    },
+    {
+        "id": "67c3",
+        "name": "No Email",
+        "email": ""
+    },
+    {
+        "id": "599e",
+        "name": "ABCDEFGHIJKLMNOPQRSTUVWXYZABCDEFGHIJKLMNOPQRSTUVWXYZABCDEFGHIJKLMNOPQRSTUVWXYZ",
+        "email": "toolong.name@test.com"
+    },
+    {
+        "id": "4e81",
+        "name": "Too Long Email",
+        "email": "abcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyz@test.com"
+    },
+    {
+        "id": "c23b",
+        "name": "Duplicate",
+        "email": "vikash@test.com"
+    }
+]
+  When I send a GET request to "/users"    # stepdefs.api.UserApiSteps.i_send_a_get_request_to(java.lang.String)
+  Then Response code should be 200         # stepdefs.api.UserApiSteps.response_code_should_be(java.lang.Integer)
+  And Response should not contain "Vikash" # stepdefs.api.UserApiSteps.response_should_not_contain(java.lang.String)
+      java.lang.AssertionError: expected [false] but found [true]
+      	at org.testng.Assert.fail(Assert.java:111)
+      	at org.testng.Assert.failNotEquals(Assert.java:1590)
+      	at org.testng.Assert.assertFalse(Assert.java:79)
+      	at org.testng.Assert.assertFalse(Assert.java:89)
+      	at stepdefs.api.UserApiSteps.response_should_not_contain(UserApiSteps.java:124)
+      	at ✽.Response should not contain "Vikash"(file:///C:/Users/saurabh%20yadav/Downloads/Myproject/Myproject/Myproject/src/test/resources/features/api/user_crud.feature:111)
+]]></system-out>
+  </testcase>
+  <testcase name="runScenario[&quot;Create user with duplicate email&quot;, &quot;User API&quot;](22)" classname="runners.TestNGApiRunner" time="0.024">
+    <failure message="The step &apos;I send a POST request to &quot;/users&quot;&apos; is undefined.&#10;You can implement this step using the snippet(s) below:&#10;&#10;@When(&quot;I send a POST request to {string}&quot;)&#10;public void i_send_a_post_request_to(String string) {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;" type="io.cucumber.testng.UndefinedStepException"><![CDATA[io.cucumber.testng.UndefinedStepException: 
+The step 'I send a POST request to "/users"' is undefined.
+You can implement this step using the snippet(s) below:
+
+@When("I send a POST request to {string}")
+public void i_send_a_post_request_to(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+	at ✽.I send a POST request to "/users"(file:///C:/Users/saurabh%20yadav/Downloads/Myproject/Myproject/Myproject/src/test/resources/features/api/user_crud.feature:115)
+]]></failure>
+    <system-out><![CDATA[
+Scenario: Create user with duplicate email                        # src/test/resources/features/api/user_crud.feature:113
+  Given I use user test data "duplicateEmailUser"                 # stepdefs.api.UserApiSteps.i_use_user_test_data(java.lang.String)
+  When I send a POST request to "/users"
+  Then Response code should be 409                                # stepdefs.api.UserApiSteps.response_code_should_be(java.lang.Integer)
+  And Response should have error message "User already exists"    # stepdefs.api.UserApiSteps.response_should_have_error_message(java.lang.String)
+  And Response header "Content-Type" should be "application/json" # stepdefs.api.UserApiSteps.response_header_should_be(java.lang.String,java.lang.String)
+]]></system-out>
+  </testcase>
+</testsuite>

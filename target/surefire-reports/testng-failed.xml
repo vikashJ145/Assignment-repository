@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [API Test Suite]" guice-stage="DEVELOPMENT" verbose="0">
+  <listeners>
+    <listener class-name="utils.TestExecutionReporter"/>
+  </listeners>
+  <test thread-count="5" name="API CRUD Tests(failed)" verbose="0">
+    <classes>
+      <class name="runners.TestNGApiRunner">
+        <methods>
+          <include name="setUpClass"/>
+          <include name="tearDown"/>
+          <include name="tearDownClass"/>
+          <include name="runScenario" invocation-numbers="0 1 2 3 4 5 6 8 9 10 11 12 13 14 15 16 17 18 19 20 21"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- runners.TestNGApiRunner -->
+    </classes>
+  </test> <!-- API CRUD Tests(failed) -->
+</suite> <!-- Failed suite [API Test Suite] -->

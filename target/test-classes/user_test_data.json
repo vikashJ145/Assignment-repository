@@ -1,0 +1,13 @@
+{
+  "validUser": {"name": "Vikash", "email": "vikash@test.com"},
+  "specialCharUser": {"name": "John@Doe!", "email": "john.special@test.com"},
+  "maxNameUser": {"name": "ABCDEFGHIJKLMNOPQRSTUVWXYZABCDEFGHIJKLMNOPQRSTUVWXYZ", "email": "max.name@test.com"},
+  "maxEmailUser": {"name": "Max Email", "email": "abcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyz@test.com"},
+  "missingNameUser": {"name": "", "email": "missingname@test.com"},
+  "invalidEmailUser": {"name": "Invalid Email", "email": "invalidemail"},
+  "missingEmailUser": {"name": "No Email", "email": ""},
+  "longNameUser": {"name": "ABCDEFGHIJKLMNOPQRSTUVWXYZABCDEFGHIJKLMNOPQRSTUVWXYZABCDEFGHIJKLMNOPQRSTUVWXYZ", "email": "toolong.name@test.com"},
+  "longEmailUser": {"name": "Too Long Email", "email": "abcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyz@test.com"},
+  "mixedCaseEmailUser": {"name": "Case Test", "email": "Case.Test@TeSt.CoM"},
+  "duplicateEmailUser": {"name": "Duplicate", "email": "vikash@test.com"}
+} 

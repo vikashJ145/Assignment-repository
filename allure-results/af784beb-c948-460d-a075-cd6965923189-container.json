@@ -1,0 +1,1 @@
+{"uuid":"af784beb-c948-460d-a075-cd6965923189","name":"runners.TestNGApiRunner.setUp","children":["ef556bff-a261-4e10-874a-0e5c45963a2d"],"description":"","befores":[{"name":"setUp","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1752561255932,"stop":1752561255932}],"afters":[],"start":1752561255932,"stop":1752561255933}

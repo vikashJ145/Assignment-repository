@@ -1,0 +1,8 @@
+When I send a PUT request to "/users/{id}" with updated name "Vikash Updated" and email "vikash.updated@test.com"
+    Then Response code should be 200
+    And Response header "Content-Type" should be "application/json"
+=======
+  Scenario: Update user
+    When I send a PUT request to "/users/\{id\}" with updated name "Vikash Updated" and email "vikash.updated@test.com"
+    Then Response code should be 200
+    And Response header "Content-Type" should be "application/json"

@@ -1,0 +1,5 @@
+pages\BasePage.class
+api\client\ApiClient.class
+api\models\User.class
+pages\BookstorePage.class
+api\config\ConfigManager.class
