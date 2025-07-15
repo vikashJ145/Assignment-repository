@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="3.217" tests="22" skipped="0" failures="21" errors="0" timestamp="2025-07-15T09:54:51.311267400Z">
+<testcase classname="User API" name="Create a user" time="0.268">
+<failure/>
+<system-out><![CDATA[
+Given I use user test data "validUser"......................................passed
+When I send a POST request to "/users"......................................undefined
+Then Response code should be 201............................................skipped
+And Response header "Content-Type" should be "application/json".............skipped
+]]></system-out>
+</testcase>
+<testcase classname="User API" name="Get user by ID" time="1.879">
+<failure type="java.lang.AssertionError" message="expected [200] but found [404]">
+<![CDATA[java.lang.AssertionError: expected [200] but found [404]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1590)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+	at org.testng.Assert.assertEquals(Assert.java:132)
+	at org.testng.Assert.assertEquals(Assert.java:1431)
+	at org.testng.Assert.assertEquals(Assert.java:1395)
+	at org.testng.Assert.assertEquals(Assert.java:1441)
+	at stepdefs.api.UserApiSteps.response_code_should_be(UserApiSteps.java:114)
+	at ✽.Response code should be 200(file:///C:/Users/saurabh%20yadav/Downloads/Myproject/Myproject/Myproject/src/test/resources/features/api/user_crud.feature:11)
+]]>
+</failure>
+<system-out><![CDATA[
+When I send a GET request to get the created user...........................passed
+Then Response code should be 200............................................failed
+And Response should contain "Vikash"........................................skipped
+And Response header "Content-Type" should be "application/json".............skipped
+]]></system-out>
+</testcase>
+<testcase classname="User API" name="Update user" time="0.012">
+<failure/>
+<system-out><![CDATA[
+When I send a PUT request to "/users/{id}" with updated name "Vikash Updated" and email "vikash.updated@test.com".undefined
+Then Response code should be 200............................................skipped
+And Response header "Content-Type" should be "application/json".............skipped
+]]></system-out>
+</testcase>
+<testcase classname="User API" name="Delete user" time="0.01">
+<failure/>
+<system-out><![CDATA[
+When I send a DELETE request to "/users/{id}" for the created user..........undefined
+Then Response code should be 200............................................skipped
+And Response header "Content-Type" should be "application/json".............skipped
+]]></system-out>
+</testcase>
+<testcase classname="User API" name="Get user with invalid ID" time="0.032">
+<failure type="java.lang.AssertionError" message="Expected error message not found: User not found expected [true] but found [false]">
+<![CDATA[java.lang.AssertionError: Expected error message not found: User not found expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1590)
+	at org.testng.Assert.assertTrue(Assert.java:57)
+	at stepdefs.api.UserApiSteps.response_should_have_error_message(UserApiSteps.java:141)
+	at ✽.Response should have error message "User not found"(file:///C:/Users/saurabh%20yadav/Downloads/Myproject/Myproject/Myproject/src/test/resources/features/api/user_crud.feature:28)
+]]>
+</failure>
+<system-out><![CDATA[
+When I send a GET request to "/users/9999"..................................passed
+Then Response code should be 404............................................passed
+And Response should have error message "User not found".....................failed
+And Response header "Content-Type" should be "application/json".............skipped
+]]></system-out>
+</testcase>
+<testcase classname="User API" name="Create user with missing name" time="0.013">
+<failure/>
+<system-out><![CDATA[
+Given I use user test data "missingNameUser"................................passed
+When I send a POST request to "/users"......................................undefined
+Then Response code should be 400............................................skipped
+And Response should have error message "Name is required"...................skipped
+And Response header "Content-Type" should be "application/json".............skipped
+]]></system-out>
+</testcase>
+<testcase classname="User API" name="Create user with invalid email" time="0.012">
+<failure/>
+<system-out><![CDATA[
+Given I use user test data "invalidEmailUser"...............................passed
+When I send a POST request to "/users"......................................undefined
+Then Response code should be 400............................................skipped
+And Response should have error message "Invalid email format"...............skipped
+And Response header "Content-Type" should be "application/json".............skipped
+]]></system-out>
+</testcase>
+<testcase classname="User API" name="Get all users" time="0.071">
+<system-out><![CDATA[
+When I send a GET request to "/users".......................................passed
+Then Response code should be 200............................................passed
+]]></system-out>
+</testcase>
+<testcase classname="User API" name="Create user with special characters in name" time="0.01">
+<failure/>
+<system-out><![CDATA[
+Given I use user test data "specialCharUser"................................passed
+When I send a POST request to "/users"......................................undefined
+Then Response code should be 201............................................skipped
+]]></system-out>
+</testcase>
+<testcase classname="User API" name="Create user with maximum allowed name length" time="0.014">
+<failure/>
+<system-out><![CDATA[
+Given I use user test data "maxNameUser"....................................passed
+When I send a POST request to "/users"......................................undefined
+Then Response code should be 201............................................skipped
+]]></system-out>
+</testcase>
+<testcase classname="User API" name="Create user with maximum allowed email length" time="0.012">
+<failure/>
+<system-out><![CDATA[
+Given I use user test data "maxEmailUser"...................................passed
+When I send a POST request to "/users"......................................undefined
+Then Response code should be 201............................................skipped
+]]></system-out>
+</testcase>
+<testcase classname="User API" name="Update user with valid new email" time="0.017">
+<failure/>
+<system-out><![CDATA[
+When I send a PUT request to "/users/{id}" with updated name "Vikash", and email "vikash.new@test.com".undefined
+Then Response code should be 200............................................skipped
+]]></system-out>
+</testcase>
+<testcase classname="User API" name="Delete user and verify deletion" time="0.008">
+<failure/>
+<system-out><![CDATA[
+When I send a DELETE request to "/users/{id}" for the created user..........undefined
+Then Response code should be 200............................................skipped
+When I send a GET request to "/users/{id}"..................................skipped
+Then Response code should be 404............................................skipped
+]]></system-out>
+</testcase>
+<testcase classname="User API" name="Create user with mixed-case email" time="0.013">
+<failure/>
+<system-out><![CDATA[
+Given I use user test data "mixedCaseEmailUser".............................passed
+When I send a POST request to "/users"......................................undefined
+Then Response code should be 201............................................skipped
+]]></system-out>
+</testcase>
+<testcase classname="User API" name="Create user with missing email" time="0.014">
+<failure/>
+<system-out><![CDATA[
+Given I use user test data "missingEmailUser"...............................passed
+When I send a POST request to "/users"......................................undefined
+Then Response code should be 400............................................skipped
+]]></system-out>
+</testcase>
+<testcase classname="User API" name="Create user with name exceeding max length" time="0.012">
+<failure/>
+<system-out><![CDATA[
+Given I use user test data "longNameUser"...................................passed
+When I send a POST request to "/users"......................................undefined
+Then Response code should be 400............................................skipped
+]]></system-out>
+</testcase>
+<testcase classname="User API" name="Create user with email exceeding max length" time="0.01">
+<failure/>
+<system-out><![CDATA[
+Given I use user test data "longEmailUser"..................................passed
+When I send a POST request to "/users"......................................undefined
+Then Response code should be 400............................................skipped
+]]></system-out>
+</testcase>
+<testcase classname="User API" name="Update user with invalid ID" time="0.009">
+<failure/>
+<system-out><![CDATA[
+When I send a PUT request to "/users/9999" with updated name "Invalid Update", and email "invalid.update@test.com".undefined
+Then Response code should be 404............................................skipped
+]]></system-out>
+</testcase>
+<testcase classname="User API" name="Update user with invalid email" time="0.008">
+<failure/>
+<system-out><![CDATA[
+When I send a PUT request to "/users/{id}" with updated name "Invalid Email", and email "notanemail".undefined
+Then Response code should be 400............................................skipped
+]]></system-out>
+</testcase>
+<testcase classname="User API" name="Delete user with invalid ID" time="0.005">
+<failure/>
+<system-out><![CDATA[
+When I send a DELETE request to "/users/9999" for the created user..........undefined
+Then Response code should be 404............................................skipped
+]]></system-out>
+</testcase>
+<testcase classname="User API" name="Get all users when none exist" time="0.034">
+<failure type="java.lang.AssertionError" message="expected [false] but found [true]">
+<![CDATA[java.lang.AssertionError: expected [false] but found [true]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1590)
+	at org.testng.Assert.assertFalse(Assert.java:79)
+	at org.testng.Assert.assertFalse(Assert.java:89)
+	at stepdefs.api.UserApiSteps.response_should_not_contain(UserApiSteps.java:124)
+	at ✽.Response should not contain "Vikash"(file:///C:/Users/saurabh%20yadav/Downloads/Myproject/Myproject/Myproject/src/test/resources/features/api/user_crud.feature:111)
+]]>
+</failure>
+<system-out><![CDATA[
+When I send a GET request to "/users".......................................passed
+Then Response code should be 200............................................passed
+And Response should not contain "Vikash"....................................failed
+]]></system-out>
+</testcase>
+<testcase classname="User API" name="Create user with duplicate email" time="0.013">
+<failure/>
+<system-out><![CDATA[
+Given I use user test data "duplicateEmailUser".............................passed
+When I send a POST request to "/users"......................................undefined
+Then Response code should be 409............................................skipped
+And Response should have error message "User already exists"................skipped
+And Response header "Content-Type" should be "application/json".............skipped
+]]></system-out>
+</testcase>
+</testsuite>

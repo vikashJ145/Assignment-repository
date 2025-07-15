@@ -1,0 +1,267 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 22, Failures: 21, Errors: 0, Skipped: 0, Time elapsed: 13.45 s <<< FAILURE! -- in TestSuite
+runners.TestNGApiRunner.runScenario["Create a user", "User API"](1) -- Time elapsed: 0.436 s <<< FAILURE!
+io.cucumber.testng.UndefinedStepException: 
+The step 'I send a POST request to "/users"' is undefined.
+You can implement this step using the snippet(s) below:
+
+@When("I send a POST request to {string}")
+public void i_send_a_post_request_to(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+	at ✽.I send a POST request to "/users"(file:///C:/Users/saurabh%20yadav/Downloads/Myproject/Myproject/Myproject/src/test/resources/features/api/user_crud.feature:5)
+
+runners.TestNGApiRunner.runScenario["Get user by ID", "User API"](2) -- Time elapsed: 1.896 s <<< FAILURE!
+java.lang.AssertionError: expected [200] but found [404]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1590)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+	at org.testng.Assert.assertEquals(Assert.java:132)
+	at org.testng.Assert.assertEquals(Assert.java:1431)
+	at org.testng.Assert.assertEquals(Assert.java:1395)
+	at org.testng.Assert.assertEquals(Assert.java:1441)
+	at stepdefs.api.UserApiSteps.response_code_should_be(UserApiSteps.java:114)
+	at ✽.Response code should be 200(file:///C:/Users/saurabh%20yadav/Downloads/Myproject/Myproject/Myproject/src/test/resources/features/api/user_crud.feature:11)
+
+runners.TestNGApiRunner.runScenario["Update user", "User API"](3) -- Time elapsed: 0.025 s <<< FAILURE!
+io.cucumber.testng.UndefinedStepException: 
+The step 'I send a PUT request to "/users/{id}" with updated name "Vikash Updated" and email "vikash.updated@test.com"' is undefined.
+You can implement this step using the snippet(s) below:
+
+@When("I send a PUT request to {string} with updated name {string} and email {string}")
+public void i_send_a_put_request_to_with_updated_name_and_email(String string, String string2, String string3) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+	at ✽.I send a PUT request to "/users/{id}" with updated name "Vikash Updated" and email "vikash.updated@test.com"(file:///C:/Users/saurabh%20yadav/Downloads/Myproject/Myproject/Myproject/src/test/resources/features/api/user_crud.feature:16)
+
+runners.TestNGApiRunner.runScenario["Delete user", "User API"](4) -- Time elapsed: 0.023 s <<< FAILURE!
+io.cucumber.testng.UndefinedStepException: 
+The step 'I send a DELETE request to "/users/{id}" for the created user' is undefined.
+You can implement this step using the snippet(s) below:
+
+@When("I send a DELETE request to {string} for the created user")
+public void i_send_a_delete_request_to_for_the_created_user(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+	at ✽.I send a DELETE request to "/users/{id}" for the created user(file:///C:/Users/saurabh%20yadav/Downloads/Myproject/Myproject/Myproject/src/test/resources/features/api/user_crud.feature:21)
+
+runners.TestNGApiRunner.runScenario["Get user with invalid ID", "User API"](5) -- Time elapsed: 0.043 s <<< FAILURE!
+java.lang.AssertionError: Expected error message not found: User not found expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1590)
+	at org.testng.Assert.assertTrue(Assert.java:57)
+	at stepdefs.api.UserApiSteps.response_should_have_error_message(UserApiSteps.java:141)
+	at ✽.Response should have error message "User not found"(file:///C:/Users/saurabh%20yadav/Downloads/Myproject/Myproject/Myproject/src/test/resources/features/api/user_crud.feature:28)
+
+runners.TestNGApiRunner.runScenario["Create user with missing name", "User API"](6) -- Time elapsed: 0.019 s <<< FAILURE!
+io.cucumber.testng.UndefinedStepException: 
+The step 'I send a POST request to "/users"' is undefined.
+You can implement this step using the snippet(s) below:
+
+@When("I send a POST request to {string}")
+public void i_send_a_post_request_to(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+	at ✽.I send a POST request to "/users"(file:///C:/Users/saurabh%20yadav/Downloads/Myproject/Myproject/Myproject/src/test/resources/features/api/user_crud.feature:33)
+
+runners.TestNGApiRunner.runScenario["Create user with invalid email", "User API"](7) -- Time elapsed: 0.023 s <<< FAILURE!
+io.cucumber.testng.UndefinedStepException: 
+The step 'I send a POST request to "/users"' is undefined.
+You can implement this step using the snippet(s) below:
+
+@When("I send a POST request to {string}")
+public void i_send_a_post_request_to(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+	at ✽.I send a POST request to "/users"(file:///C:/Users/saurabh%20yadav/Downloads/Myproject/Myproject/Myproject/src/test/resources/features/api/user_crud.feature:40)
+
+runners.TestNGApiRunner.runScenario["Create user with special characters in name", "User API"](9) -- Time elapsed: 0.019 s <<< FAILURE!
+io.cucumber.testng.UndefinedStepException: 
+The step 'I send a POST request to "/users"' is undefined.
+You can implement this step using the snippet(s) below:
+
+@When("I send a POST request to {string}")
+public void i_send_a_post_request_to(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+	at ✽.I send a POST request to "/users"(file:///C:/Users/saurabh%20yadav/Downloads/Myproject/Myproject/Myproject/src/test/resources/features/api/user_crud.feature:52)
+
+runners.TestNGApiRunner.runScenario["Create user with maximum allowed name length", "User API"](10) -- Time elapsed: 0.025 s <<< FAILURE!
+io.cucumber.testng.UndefinedStepException: 
+The step 'I send a POST request to "/users"' is undefined.
+You can implement this step using the snippet(s) below:
+
+@When("I send a POST request to {string}")
+public void i_send_a_post_request_to(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+	at ✽.I send a POST request to "/users"(file:///C:/Users/saurabh%20yadav/Downloads/Myproject/Myproject/Myproject/src/test/resources/features/api/user_crud.feature:57)
+
+runners.TestNGApiRunner.runScenario["Create user with maximum allowed email length", "User API"](11) -- Time elapsed: 0.021 s <<< FAILURE!
+io.cucumber.testng.UndefinedStepException: 
+The step 'I send a POST request to "/users"' is undefined.
+You can implement this step using the snippet(s) below:
+
+@When("I send a POST request to {string}")
+public void i_send_a_post_request_to(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+	at ✽.I send a POST request to "/users"(file:///C:/Users/saurabh%20yadav/Downloads/Myproject/Myproject/Myproject/src/test/resources/features/api/user_crud.feature:62)
+
+runners.TestNGApiRunner.runScenario["Update user with valid new email", "User API"](12) -- Time elapsed: 0.027 s <<< FAILURE!
+io.cucumber.testng.UndefinedStepException: 
+The step 'I send a PUT request to "/users/{id}" with updated name "Vikash", and email "vikash.new@test.com"' is undefined.
+You can implement this step using the snippet(s) below:
+
+@When("I send a PUT request to {string} with updated name {string}, and email {string}")
+public void i_send_a_put_request_to_with_updated_name_and_email(String string, String string2, String string3) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+	at ✽.I send a PUT request to "/users/{id}" with updated name "Vikash", and email "vikash.new@test.com"(file:///C:/Users/saurabh%20yadav/Downloads/Myproject/Myproject/Myproject/src/test/resources/features/api/user_crud.feature:66)
+
+runners.TestNGApiRunner.runScenario["Delete user and verify deletion", "User API"](13) -- Time elapsed: 0.021 s <<< FAILURE!
+io.cucumber.testng.UndefinedStepException: 
+The step 'I send a DELETE request to "/users/{id}" for the created user' is undefined.
+You can implement this step using the snippet(s) below:
+
+@When("I send a DELETE request to {string} for the created user")
+public void i_send_a_delete_request_to_for_the_created_user(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+	at ✽.I send a DELETE request to "/users/{id}" for the created user(file:///C:/Users/saurabh%20yadav/Downloads/Myproject/Myproject/Myproject/src/test/resources/features/api/user_crud.feature:70)
+
+runners.TestNGApiRunner.runScenario["Create user with mixed-case email", "User API"](14) -- Time elapsed: 0.023 s <<< FAILURE!
+io.cucumber.testng.UndefinedStepException: 
+The step 'I send a POST request to "/users"' is undefined.
+You can implement this step using the snippet(s) below:
+
+@When("I send a POST request to {string}")
+public void i_send_a_post_request_to(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+	at ✽.I send a POST request to "/users"(file:///C:/Users/saurabh%20yadav/Downloads/Myproject/Myproject/Myproject/src/test/resources/features/api/user_crud.feature:77)
+
+runners.TestNGApiRunner.runScenario["Create user with missing email", "User API"](15) -- Time elapsed: 0.023 s <<< FAILURE!
+io.cucumber.testng.UndefinedStepException: 
+The step 'I send a POST request to "/users"' is undefined.
+You can implement this step using the snippet(s) below:
+
+@When("I send a POST request to {string}")
+public void i_send_a_post_request_to(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+	at ✽.I send a POST request to "/users"(file:///C:/Users/saurabh%20yadav/Downloads/Myproject/Myproject/Myproject/src/test/resources/features/api/user_crud.feature:83)
+
+runners.TestNGApiRunner.runScenario["Create user with name exceeding max length", "User API"](16) -- Time elapsed: 0.020 s <<< FAILURE!
+io.cucumber.testng.UndefinedStepException: 
+The step 'I send a POST request to "/users"' is undefined.
+You can implement this step using the snippet(s) below:
+
+@When("I send a POST request to {string}")
+public void i_send_a_post_request_to(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+	at ✽.I send a POST request to "/users"(file:///C:/Users/saurabh%20yadav/Downloads/Myproject/Myproject/Myproject/src/test/resources/features/api/user_crud.feature:88)
+
+runners.TestNGApiRunner.runScenario["Create user with email exceeding max length", "User API"](17) -- Time elapsed: 0.016 s <<< FAILURE!
+io.cucumber.testng.UndefinedStepException: 
+The step 'I send a POST request to "/users"' is undefined.
+You can implement this step using the snippet(s) below:
+
+@When("I send a POST request to {string}")
+public void i_send_a_post_request_to(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+	at ✽.I send a POST request to "/users"(file:///C:/Users/saurabh%20yadav/Downloads/Myproject/Myproject/Myproject/src/test/resources/features/api/user_crud.feature:93)
+
+runners.TestNGApiRunner.runScenario["Update user with invalid ID", "User API"](18) -- Time elapsed: 0.021 s <<< FAILURE!
+io.cucumber.testng.UndefinedStepException: 
+The step 'I send a PUT request to "/users/9999" with updated name "Invalid Update", and email "invalid.update@test.com"' is undefined.
+You can implement this step using the snippet(s) below:
+
+@When("I send a PUT request to {string} with updated name {string}, and email {string}")
+public void i_send_a_put_request_to_with_updated_name_and_email(String string, String string2, String string3) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+	at ✽.I send a PUT request to "/users/9999" with updated name "Invalid Update", and email "invalid.update@test.com"(file:///C:/Users/saurabh%20yadav/Downloads/Myproject/Myproject/Myproject/src/test/resources/features/api/user_crud.feature:97)
+
+runners.TestNGApiRunner.runScenario["Update user with invalid email", "User API"](19) -- Time elapsed: 0.016 s <<< FAILURE!
+io.cucumber.testng.UndefinedStepException: 
+The step 'I send a PUT request to "/users/{id}" with updated name "Invalid Email", and email "notanemail"' is undefined.
+You can implement this step using the snippet(s) below:
+
+@When("I send a PUT request to {string} with updated name {string}, and email {string}")
+public void i_send_a_put_request_to_with_updated_name_and_email(String string, String string2, String string3) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+	at ✽.I send a PUT request to "/users/{id}" with updated name "Invalid Email", and email "notanemail"(file:///C:/Users/saurabh%20yadav/Downloads/Myproject/Myproject/Myproject/src/test/resources/features/api/user_crud.feature:101)
+
+runners.TestNGApiRunner.runScenario["Delete user with invalid ID", "User API"](20) -- Time elapsed: 0.013 s <<< FAILURE!
+io.cucumber.testng.UndefinedStepException: 
+The step 'I send a DELETE request to "/users/9999" for the created user' is undefined.
+You can implement this step using the snippet(s) below:
+
+@When("I send a DELETE request to {string} for the created user")
+public void i_send_a_delete_request_to_for_the_created_user(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+	at ✽.I send a DELETE request to "/users/9999" for the created user(file:///C:/Users/saurabh%20yadav/Downloads/Myproject/Myproject/Myproject/src/test/resources/features/api/user_crud.feature:105)
+
+runners.TestNGApiRunner.runScenario["Get all users when none exist", "User API"](21) -- Time elapsed: 0.047 s <<< FAILURE!
+java.lang.AssertionError: expected [false] but found [true]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1590)
+	at org.testng.Assert.assertFalse(Assert.java:79)
+	at org.testng.Assert.assertFalse(Assert.java:89)
+	at stepdefs.api.UserApiSteps.response_should_not_contain(UserApiSteps.java:124)
+	at ✽.Response should not contain "Vikash"(file:///C:/Users/saurabh%20yadav/Downloads/Myproject/Myproject/Myproject/src/test/resources/features/api/user_crud.feature:111)
+
+runners.TestNGApiRunner.runScenario["Create user with duplicate email", "User API"](22) -- Time elapsed: 0.024 s <<< FAILURE!
+io.cucumber.testng.UndefinedStepException: 
+The step 'I send a POST request to "/users"' is undefined.
+You can implement this step using the snippet(s) below:
+
+@When("I send a POST request to {string}")
+public void i_send_a_post_request_to(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+	at ✽.I send a POST request to "/users"(file:///C:/Users/saurabh%20yadav/Downloads/Myproject/Myproject/Myproject/src/test/resources/features/api/user_crud.feature:115)
+

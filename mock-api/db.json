@@ -1,0 +1,309 @@
+{
+  "users": [
+    {
+      "id": "d4e3",
+      "name": "Vikash",
+      "email": "vikash@test.com"
+    },
+    {
+      "id": "090d",
+      "name": "Vikash",
+      "email": "vikash@test.com"
+    },
+    {
+      "id": "818a",
+      "name": "",
+      "email": "missingname@test.com"
+    },
+    {
+      "id": "c073",
+      "name": "Invalid Email",
+      "email": "invalidemail"
+    },
+    {
+      "id": "927e",
+      "name": "Vikash",
+      "email": "vikash@test.com"
+    },
+    {
+      "id": "5730",
+      "name": "",
+      "email": "missingname@test.com"
+    },
+    {
+      "id": "78e4",
+      "name": "Invalid Email",
+      "email": "invalidemail"
+    },
+    {
+      "id": "26e1",
+      "name": "Vikash",
+      "email": "vikash@test.com"
+    },
+    {
+      "id": "a27a",
+      "name": "",
+      "email": "missingname@test.com"
+    },
+    {
+      "id": "b36e",
+      "name": "Invalid Email",
+      "email": "invalidemail"
+    },
+    {
+      "id": "4eec",
+      "name": "Vikash",
+      "email": "vikash@test.com"
+    },
+    {
+      "id": "1b8c",
+      "name": "",
+      "email": "missingname@test.com"
+    },
+    {
+      "id": "f3d2",
+      "name": "Invalid Email",
+      "email": "invalidemail"
+    },
+    {
+      "id": "197b",
+      "name": "Vikash",
+      "email": "vikash@test.com"
+    },
+    {
+      "id": "82b7",
+      "name": "",
+      "email": "missingname@test.com"
+    },
+    {
+      "id": "2903",
+      "name": "Invalid Email",
+      "email": "invalidemail"
+    },
+    {
+      "id": "c09b",
+      "name": "Vikash",
+      "email": "vikash@test.com"
+    },
+    {
+      "id": "a2c4",
+      "name": "",
+      "email": "missingname@test.com"
+    },
+    {
+      "id": "907c",
+      "name": "Invalid Email",
+      "email": "invalidemail"
+    },
+    {
+      "id": "feae",
+      "name": "Vikash",
+      "email": "vikash@test.com"
+    },
+    {
+      "id": "bc3e",
+      "name": "",
+      "email": "missingname@test.com"
+    },
+    {
+      "id": "0efd",
+      "name": "Invalid Email",
+      "email": "invalidemail"
+    },
+    {
+      "id": "43d3",
+      "name": "Vikash",
+      "email": "vikash@test.com"
+    },
+    {
+      "id": "0dd3",
+      "name": "",
+      "email": "missingname@test.com"
+    },
+    {
+      "id": "920d",
+      "name": "Invalid Email",
+      "email": "invalidemail"
+    },
+    {
+      "id": "dd2e",
+      "name": "Vikash",
+      "email": "vikash@test.com"
+    },
+    {
+      "id": "9acd",
+      "name": "",
+      "email": "missingname@test.com"
+    },
+    {
+      "id": "69b2",
+      "name": "Invalid Email",
+      "email": "invalidemail"
+    },
+    {
+      "id": "d5d8",
+      "name": "Vikash",
+      "email": "vikash@test.com"
+    },
+    {
+      "id": "4890",
+      "name": "",
+      "email": "missingname@test.com"
+    },
+    {
+      "id": "cabf",
+      "name": "Invalid Email",
+      "email": "invalidemail"
+    },
+    {
+      "id": "3d3f",
+      "name": "Vikash",
+      "email": "vikash@test.com"
+    },
+    {
+      "id": "fcc7",
+      "name": "",
+      "email": "missingname@test.com"
+    },
+    {
+      "id": "53b3",
+      "name": "Invalid Email",
+      "email": "invalidemail"
+    },
+    {
+      "id": "f596",
+      "name": "Vikash",
+      "email": "vikash@test.com"
+    },
+    {
+      "id": "c77f",
+      "name": "",
+      "email": "missingname@test.com"
+    },
+    {
+      "id": "4615",
+      "name": "Invalid Email",
+      "email": "invalidemail"
+    },
+    {
+      "id": "b32d",
+      "name": "Vikash",
+      "email": "vikash@test.com"
+    },
+    {
+      "id": "b567",
+      "name": "",
+      "email": "missingname@test.com"
+    },
+    {
+      "id": "8d37",
+      "name": "Invalid Email",
+      "email": "invalidemail"
+    },
+    {
+      "id": "7ff5",
+      "name": "",
+      "email": "missingname@test.com"
+    },
+    {
+      "id": "fd31",
+      "name": "Invalid Email",
+      "email": "invalidemail"
+    },
+    {
+      "id": "5ab2",
+      "name": "",
+      "email": "missingname@test.com"
+    },
+    {
+      "id": "5e77",
+      "name": "Invalid Email",
+      "email": "invalidemail"
+    },
+    {
+      "id": "05cd",
+      "name": "John@Doe!",
+      "email": "john.special@test.com"
+    },
+    {
+      "id": "9829",
+      "name": "ABCDEFGHIJKLMNOPQRSTUVWXYZABCDEFGHIJKLMNOPQRSTUVWXYZ",
+      "email": "max.name@test.com"
+    },
+    {
+      "id": "06c0",
+      "name": "Case Test",
+      "email": "Case.Test@TeSt.CoM"
+    },
+    {
+      "id": "5714",
+      "name": "No Email",
+      "email": ""
+    },
+    {
+      "id": "c3ca",
+      "name": "ABCDEFGHIJKLMNOPQRSTUVWXYZABCDEFGHIJKLMNOPQRSTUVWXYZABCDEFGHIJKLMNOPQRSTUVWXYZ",
+      "email": "toolong.name@test.com"
+    },
+    {
+      "id": "5a87",
+      "name": "Too Long Email",
+      "email": "abcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyz@test.com"
+    },
+    {
+      "id": "7ef0",
+      "name": "Duplicate",
+      "email": "vikash@test.com"
+    },
+    {
+      "id": "428d",
+      "name": "",
+      "email": "missingname@test.com"
+    },
+    {
+      "id": "2d07",
+      "name": "Invalid Email",
+      "email": "invalidemail"
+    },
+    {
+      "id": "6d34",
+      "name": "John@Doe!",
+      "email": "john.special@test.com"
+    },
+    {
+      "id": "1db9",
+      "name": "ABCDEFGHIJKLMNOPQRSTUVWXYZABCDEFGHIJKLMNOPQRSTUVWXYZ",
+      "email": "max.name@test.com"
+    },
+    {
+      "id": "70d6",
+      "name": "Max Email",
+      "email": "abcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyz@test.com"
+    },
+    {
+      "id": "b22f",
+      "name": "Case Test",
+      "email": "Case.Test@TeSt.CoM"
+    },
+    {
+      "id": "67c3",
+      "name": "No Email",
+      "email": ""
+    },
+    {
+      "id": "599e",
+      "name": "ABCDEFGHIJKLMNOPQRSTUVWXYZABCDEFGHIJKLMNOPQRSTUVWXYZABCDEFGHIJKLMNOPQRSTUVWXYZ",
+      "email": "toolong.name@test.com"
+    },
+    {
+      "id": "4e81",
+      "name": "Too Long Email",
+      "email": "abcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyz@test.com"
+    },
+    {
+      "id": "c23b",
+      "name": "Duplicate",
+      "email": "vikash@test.com"
+    }
+  ]
+}

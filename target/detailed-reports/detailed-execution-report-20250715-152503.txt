@@ -1,0 +1,220 @@
+=== TEST EXECUTION REPORT ===
+Start Time: 2025-07-15 15:24:50
+Test Suite: API CRUD Tests
+
+[FAILED] runners.TestNGApiRunner.runScenario - Duration: 428ms
+Error: The step 'I send a POST request to "/users"' is undefined.
+You can implement this step using the snippet(s) below:
+
+@When("I send a POST request to {string}")
+public void i_send_a_post_request_to(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+
+[FAILED] runners.TestNGApiRunner.runScenario - Duration: 1889ms
+Error: expected [200] but found [404]
+
+[FAILED] runners.TestNGApiRunner.runScenario - Duration: 23ms
+Error: The step 'I send a PUT request to "/users/{id}" with updated name "Vikash Updated" and email "vikash.updated@test.com"' is undefined.
+You can implement this step using the snippet(s) below:
+
+@When("I send a PUT request to {string} with updated name {string} and email {string}")
+public void i_send_a_put_request_to_with_updated_name_and_email(String string, String string2, String string3) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+
+[FAILED] runners.TestNGApiRunner.runScenario - Duration: 18ms
+Error: The step 'I send a DELETE request to "/users/{id}" for the created user' is undefined.
+You can implement this step using the snippet(s) below:
+
+@When("I send a DELETE request to {string} for the created user")
+public void i_send_a_delete_request_to_for_the_created_user(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+
+[FAILED] runners.TestNGApiRunner.runScenario - Duration: 38ms
+Error: Expected error message not found: User not found expected [true] but found [false]
+
+[FAILED] runners.TestNGApiRunner.runScenario - Duration: 18ms
+Error: The step 'I send a POST request to "/users"' is undefined.
+You can implement this step using the snippet(s) below:
+
+@When("I send a POST request to {string}")
+public void i_send_a_post_request_to(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+
+[FAILED] runners.TestNGApiRunner.runScenario - Duration: 18ms
+Error: The step 'I send a POST request to "/users"' is undefined.
+You can implement this step using the snippet(s) below:
+
+@When("I send a POST request to {string}")
+public void i_send_a_post_request_to(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+
+[PASSED] runners.TestNGApiRunner.runScenario - Duration: 76ms
+
+[FAILED] runners.TestNGApiRunner.runScenario - Duration: 15ms
+Error: The step 'I send a POST request to "/users"' is undefined.
+You can implement this step using the snippet(s) below:
+
+@When("I send a POST request to {string}")
+public void i_send_a_post_request_to(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+
+[FAILED] runners.TestNGApiRunner.runScenario - Duration: 20ms
+Error: The step 'I send a POST request to "/users"' is undefined.
+You can implement this step using the snippet(s) below:
+
+@When("I send a POST request to {string}")
+public void i_send_a_post_request_to(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+
+[FAILED] runners.TestNGApiRunner.runScenario - Duration: 17ms
+Error: The step 'I send a POST request to "/users"' is undefined.
+You can implement this step using the snippet(s) below:
+
+@When("I send a POST request to {string}")
+public void i_send_a_post_request_to(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+
+[FAILED] runners.TestNGApiRunner.runScenario - Duration: 27ms
+Error: The step 'I send a PUT request to "/users/{id}" with updated name "Vikash", and email "vikash.new@test.com"' is undefined.
+You can implement this step using the snippet(s) below:
+
+@When("I send a PUT request to {string} with updated name {string}, and email {string}")
+public void i_send_a_put_request_to_with_updated_name_and_email(String string, String string2, String string3) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+
+[FAILED] runners.TestNGApiRunner.runScenario - Duration: 16ms
+Error: The step 'I send a DELETE request to "/users/{id}" for the created user' is undefined.
+You can implement this step using the snippet(s) below:
+
+@When("I send a DELETE request to {string} for the created user")
+public void i_send_a_delete_request_to_for_the_created_user(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+
+[FAILED] runners.TestNGApiRunner.runScenario - Duration: 17ms
+Error: The step 'I send a POST request to "/users"' is undefined.
+You can implement this step using the snippet(s) below:
+
+@When("I send a POST request to {string}")
+public void i_send_a_post_request_to(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+
+[FAILED] runners.TestNGApiRunner.runScenario - Duration: 19ms
+Error: The step 'I send a POST request to "/users"' is undefined.
+You can implement this step using the snippet(s) below:
+
+@When("I send a POST request to {string}")
+public void i_send_a_post_request_to(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+
+[FAILED] runners.TestNGApiRunner.runScenario - Duration: 19ms
+Error: The step 'I send a POST request to "/users"' is undefined.
+You can implement this step using the snippet(s) below:
+
+@When("I send a POST request to {string}")
+public void i_send_a_post_request_to(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+
+[FAILED] runners.TestNGApiRunner.runScenario - Duration: 13ms
+Error: The step 'I send a POST request to "/users"' is undefined.
+You can implement this step using the snippet(s) below:
+
+@When("I send a POST request to {string}")
+public void i_send_a_post_request_to(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+
+[FAILED] runners.TestNGApiRunner.runScenario - Duration: 14ms
+Error: The step 'I send a PUT request to "/users/9999" with updated name "Invalid Update", and email "invalid.update@test.com"' is undefined.
+You can implement this step using the snippet(s) below:
+
+@When("I send a PUT request to {string} with updated name {string}, and email {string}")
+public void i_send_a_put_request_to_with_updated_name_and_email(String string, String string2, String string3) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+
+[FAILED] runners.TestNGApiRunner.runScenario - Duration: 14ms
+Error: The step 'I send a PUT request to "/users/{id}" with updated name "Invalid Email", and email "notanemail"' is undefined.
+You can implement this step using the snippet(s) below:
+
+@When("I send a PUT request to {string} with updated name {string}, and email {string}")
+public void i_send_a_put_request_to_with_updated_name_and_email(String string, String string2, String string3) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+
+[FAILED] runners.TestNGApiRunner.runScenario - Duration: 11ms
+Error: The step 'I send a DELETE request to "/users/9999" for the created user' is undefined.
+You can implement this step using the snippet(s) below:
+
+@When("I send a DELETE request to {string} for the created user")
+public void i_send_a_delete_request_to_for_the_created_user(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+
+[FAILED] runners.TestNGApiRunner.runScenario - Duration: 40ms
+Error: expected [false] but found [true]
+
+[FAILED] runners.TestNGApiRunner.runScenario - Duration: 20ms
+Error: The step 'I send a POST request to "/users"' is undefined.
+You can implement this step using the snippet(s) below:
+
+@When("I send a POST request to {string}")
+public void i_send_a_post_request_to(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+
+=== EXECUTION SUMMARY ===
+Total Tests: 1
+Passed: 1
+Failed: 21
+Skipped: 0
+Success Rate: 4.545454545454546%
+End Time: 2025-07-15 15:25:03
